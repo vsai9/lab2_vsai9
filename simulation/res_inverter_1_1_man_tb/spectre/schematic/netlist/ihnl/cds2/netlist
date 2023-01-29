@@ -1,0 +1,9 @@
+
+// Library name: res_inverter_1
+// Cell name: res_inverter_1_1_man_tb
+// View name: schematic
+I8 (net2 net3) group7_enhancement
+INPUT_SIGNAL (net2 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 \
+        period=10ns rise=66.67p fall=66.67p width=5ns
+LOAD_CAPACITOR (net3 0) capacitor c=15f
+V0 (vdd! 0) vsource dc=1.2V type=dc

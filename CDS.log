@@ -1,0 +1,2196 @@
+\# Program start time:     UTC 2022.12.01 09:41:15.652
+\# Local time: PST (UTC-08:00) 2022.12.01 01:41:15.652
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 08/27/2019 20:34 (sjfhw315) $
+\o Hierarchy:		/pkgs/cadence/2019-03/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.6  (64-bit addresses)
+\# Command line:	/pkgs/cadence/2019-03/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+\# Host name (type):	mo.ece.pdx.edu (x86_64)
+\# Operating system:	Linux 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:80.0 (1024x768)
+\# Available geometry:			TL(0:24) BR(1023:722)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x3000000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Memory report:	RLIMIT_AS cur 65,536 MB, max 131,072 MB
+\# Memory report: setting current limit to max value.
+\# Max process size:	    131,072 MB
+\# Initial sbrk value:	        512 MB
+\# Available memory:	     28,113 MB
+\# System memory:	     85,428 MB
+\# Maximum memory size:	     85,068 MB
+\# Max mem available:	     28,265 MB
+\# Initial memory used:	        152 MB
+\#        process size:	      1,613 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 32.00/32.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		sai9
+\o Working Directory:	mo.ece.pdx.edu:/u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525
+\# Process Id:		884
+\o 
+\o COPYRIGHT (C) 1992-2019  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2019  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading ams.cxt 
+\o Loading cli.cxt 
+\o Loading cle.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+\# Memory report: using         271 MB, process size 1,864 MB at UTC 2022.12.01 09:41:21.437
+\o loading vars from /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o 
+\o This initiative is brought to you by the Semiconductor Research
+\o Corporation (SRC), the National Science Foundation (NSF), Silicon
+\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
+\o 
+\o This version of the kit was created by Rhett Davis, Paul Franzon,
+\o Michael Bucher, Sunil Basavarajaiah, and Harun Demircioglu
+\o of North Carolina State University, and James Stine and Ivan Castellanos
+\o of Oklahoma State University.
+\o 
+\o Contributions and modifications to this kit are welcomed and encouraged.
+\o 
+\o Copyright 2007 - W. Rhett Davis, Paul Franzon, Michael Bucher,
+\o                  and Sunil Basavarajaiah, North Carolina State University
+\o Copyright 2008 - W. Rhett Davis, Michael Bucher, and Sunil Basavarajaiah,
+\o                  North Carolina State University (ncsu_basekit subtree)
+\o                  James Stine, and Ivan Castellanos,
+\o                  and Oklahoma State University (osu_soc subtree)
+\o Copyright 2011 - W. Rhett Davis, and Harun Demircioglu,
+\o                  North Carolina State University
+\o 
+\o Licensed under the Apache License, Version 2.0 (the "License");
+\o you may not use this file except in compliance with the License.
+\o You may obtain a copy of the License at
+\o 
+\o     http://www.apache.org/licenses/LICENSE-2.0
+\o 
+\o Unless required by applicable law or agreed to in writing, software
+\o distributed under the License is distributed on an "AS IS" BASIS,
+\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+\o See the License for the specific language governing permissions and
+\o limitations under the License.
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\# Available memory:         27,993 MB at UTC 2022.12.01 09:41:26.775
+\# Memory report: Maximum memory size now 28,271 MB at UTC 2022.12.01 09:41:26.776
+\# Thread usage report: 35 active threads, active load 1.00 at UTC 2022.12.01 09:41:26.776
+\o  
+\o Library Manager created library "proj2_nand"
+\p > 
+\a hiiSetCurrentForm('ddsTechOptionForm)
+\r t
+\a ddsTechOptionForm->Option->value="Attach to an existing technology library"
+\r "Attach to an existing technology library"
+\a ddsTechOptionForm->Option->value="Attach to an existing technology library"
+\r "Attach to an existing technology library"
+\a hiFormDone(ddsTechOptionForm)
+\i tcNewLibDisplayAttachTechForm("proj2_nand")
+\p > 
+\a hiiSetCurrentForm('tcNewLibAttachTechForm)
+\r t
+\a hiFormDone(tcNewLibAttachTechForm)
+\o INFO (TECH-180011): Design library 'proj2_nand' successfully attached to technology library 'NCSU_TechLib_FreePDK45'.
+\r t
+\r t
+\o  
+\o Library Manager new cellview request for library "proj2_nand".
+\i deNew('(nil libName "proj2_nand"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="nand3"
+\r "nand3"
+\a hiFormDone(deNewForm)
+\r t
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\# Thread usage report: 33 active threads, active load 1.00 at UTC 2022.12.01 09:46:56.775
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\o Loading schematic.cxt 
+\o Loading ddui.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading le.cxt 
+\o Loading drdEdit.cxt 
+\a _treeNavActivateOpc(dwindow('treeAssistant1) "/")
+\r t
+\o Loading hsm.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\o Loading rte.cxt 
+\o Loading oasis.cxt 
+\o Loading simui.cxt 
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.4375
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i -1.375:0.375
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-0.5625
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schCreateInstForm->libraryName->value="NCSU_Devices_FreePDK45"
+\r "NCSU_Devices_FreePDK45"
+\a schCreateInstForm->cellName->value="PMOS_VTL"
+\o Loading cdf.cxt 
+\r "PMOS_VTL"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i 27.21875:0.90625
+\r t
+\a hiZoomInAtMouse()
+\i 27.8125:0
+\r t
+\a hiZoomInAtMouse()
+\i 27.8125:0
+\r t
+\a hiZoomInAtMouse()
+\i 27.8125:0
+\r t
+\a hiZoomOutAtMouse()
+\i 27.75:-0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i 27.75:-0.25
+\r t
+\a mouseAddPt(t)
+\i 28.1875:0.8375
+\r t
+\a mouseAddPt(t)
+\i 29.6:0.9125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->cellName->value="NMOS_VTL"
+\r "NMOS_VTL"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i 29.28125:-0.29375
+\r t
+\a mouseAddPt(t)
+\i 29.45:-1.0625
+\r t
+\a mouseAddPt(t)
+\i 29.48125:-2.1
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 29.6875:-1.875
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-1.875
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-1.875
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-1.875
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-1.875
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-1.875
+\r t
+\a schSingleSelectPt()
+\i 27.3125:1
+\o Loading apAssist.cxt 
+\r t
+\a schSingleSelectPt()
+\i 26.8125:0.375
+\r nil
+\a hiZoomInAtMouse()
+\i 27.3125:0.875
+\r t
+\a hiZoomInAtMouse()
+\i 27.3125:0.875
+\r t
+\a schSingleSelectPt()
+\i 27.4375:0.875
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 27.375:0.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 27.375:0.75
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 27.35:0.95625
+\r t
+\a mouseAddPt(t)
+\i 27.33125:0.75625
+\r t
+\a mouseAddPt(t)
+\i 28.25:0.84375
+\r t
+\a mouseAddPt(t)
+\i 28.20625:0.79375
+\r t
+\a hiZoomOutAtMouse()
+\i 27.6875:0.4375
+\r t
+\a mouseAddPt(t)
+\i 29.7625:0.95
+\r t
+\a mouseAddPt(t)
+\i 29.1125:0.775
+\r t
+\a mouseAddPt(t)
+\i 29.1125:0.775
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 28.5625:0.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.625:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 29.625:-0.5625
+\r t
+\a schSingleSelectPt()
+\i 29.5:-0.3125
+\r t
+\a schSingleSelectPt()
+\i 29.4375:-0.25
+\r t
+\a schSingleSelectPt()
+\i 29.5:-0.3125
+\r t
+\a schDirectEdit(1)
+\i 29.5:-0.3125
+\i 29.5:-0.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 29.1875:-0.3125
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 29.6875:0.125
+\r nil
+\a hiZoomOutAtMouse()
+\i 29.6875:-0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-0.1875
+\r t
+\a hiZoomInAtMouse()
+\i 29.8125:-1.4375
+\r t
+\a hiZoomInAtMouse()
+\i 29.8125:-1.4375
+\r t
+\a schSingleSelectPt()
+\i 29.6875:-1.125
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-1.125
+\r t
+\a schDirectEdit(1)
+\i 29.5625:-0.9375
+\i 29.5625:-0.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 29.125:-1
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 29.125:-1
+\r t
+\a schSingleSelectPt()
+\i 29.8125:-0.6875
+\r nil
+\a schSingleSelectPt()
+\i 29.6875:-2.1875
+\r t
+\a schDirectEdit(1)
+\i 29.6875:-2.125
+\i 29.75:-2.125
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 29.75:-2.0625
+\r t
+\a schSingleSelectPt()
+\i 29.5625:-1.625
+\r nil
+\a schSingleSelectPt()
+\i 30.25:-1.6875
+\r nil
+\a schSingleSelectPt()
+\i 30:-1.5625
+\r nil
+\a hiZoomInAtMouse()
+\i 29.875:-2.3125
+\r t
+\a hiZoomInAtMouse()
+\i 29.875:-2.3125
+\r t
+\a schSingleSelectPt()
+\i 29.6875:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 29.6875:-2.125
+\r t
+\a schDirectEdit(1)
+\i 29.625:-2.0625
+\i 29.625:-2.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 29.125:-1.9375
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 30.3125:-1.8125
+\r nil
+\a hiZoomOutAtMouse()
+\i 30.25:-2.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 30.25:-2.375
+\r t
+\a hiZoomInAtMouse()
+\i 30.3125:-2.4375
+\r t
+\a hiZoomInAtMouse()
+\i 30.3125:-2.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 30.3125:-2.5
+\r t
+\a hiZoomOutAtMouse()
+\i 30.3125:-2.5
+\r t
+\a hiZoomOutAtMouse()
+\i 30.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 30.125:-2.8125
+\r t
+\a hiZoomInAtMouse()
+\i 30.125:-2.8125
+\r t
+\a hiZoomInAtMouse()
+\i 29.125:1.4375
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 27.44375:0.93125
+\r t
+\a mouseAddPt(t)
+\i 27.4375:1.14375
+\r t
+\a mouseAddPt(t)
+\i 29.24375:1.14375
+\r t
+\a mouseAddPt(t)
+\i 29.25625:0.91875
+\r t
+\a mouseAddPt(t)
+\i 29.25625:0.91875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a schMouseApplyOrFinish()
+\i 28.375:1.125
+\r t
+\a schMouseApplyOrFinish()
+\i 28.375:1.125
+\r t
+\a schMouseApplyOrFinish()
+\i 28.375:0.9375
+\r t
+\a hiZoomInAtMouse()
+\i 28.375:1.125
+\r t
+\a hiZoomInAtMouse()
+\i 28.375:1.125
+\r t
+\a hiZoomInAtMouse()
+\i 28.375:1.125
+\r t
+\a mouseAddPt(t)
+\i 28.38125:1.11875
+\r t
+\a mouseAddPt(t)
+\i 28.3875:0.9375
+\r t
+\a mouseAddPt(t)
+\i 28.3875:0.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 28.375:1
+\r t
+\a hiZoomOutAtMouse()
+\i 28.375:0.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 28.375:0.9375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 29.3125:0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 29.3125:0.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.0625:-1.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.0625:-1.5
+\r t
+\a schSingleSelectPt()
+\i 29.25:0.5625
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.2625:0.53125
+\r t
+\a mouseAddPt(t)
+\i 29.26875:-0.14375
+\r t
+\a mouseAddPt(t)
+\i 29.26875:-0.14375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.2375:-0.51875
+\r t
+\a mouseAddPt(t)
+\i 29.24375:-0.96875
+\r t
+\a mouseAddPt(t)
+\i 29.24375:-0.96875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 29.3125:-1.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 29.3125:-1.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 29.25:-1.375
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.23125:-1.325
+\r t
+\a mouseAddPt(t)
+\i 29.25:-1.81875
+\r t
+\a mouseAddPt(t)
+\i 29.25:-1.81875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 29.375:-1.5
+\r t
+\a hiZoomOutAtMouse()
+\i 29.4375:-1.5
+\r t
+\a hiZoomInAtMouse()
+\i 28.625:0.5
+\r t
+\a hiZoomInAtMouse()
+\i 28.625:0.5
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 27.44375:0.55625
+\r t
+\a mouseAddPt(t)
+\i 28.375:0.55
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i 28.38125:0.55625
+\r t
+\a mouseAddPt(t)
+\i 28.9125:0.55625
+\r t
+\a mouseAddPt(t)
+\i 29.25:0.4875
+\r t
+\a hiZoomOutAtMouse()
+\i 28.25:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i 28.3125:0.25
+\r t
+\a hiZoomInAtMouse()
+\i 28.75:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i 28.75:0.25
+\r t
+\a hiZoomInAtMouse()
+\i 28.4375:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 28.4375:-0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 28.4375:-0.5625
+\r t
+\a mouseAddPt(t)
+\i 29:-0.325
+\r t
+\a mouseAddPt(t)
+\i 26.775:-0.325
+\r t
+\a mouseAddPt(t)
+\i 26.775:-0.325
+\r t
+\a mouseAddPt(t)
+\i 29:-1.13125
+\r t
+\a mouseAddPt(t)
+\i 26.775:-1.1
+\r t
+\a hiZoomOutAtMouse()
+\i 27.375:-1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 28.9375:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 28.9375:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 28.9375:-2.0625
+\r t
+\a schSingleSelectPt()
+\i 29:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 28.6875:-2
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 28.98125:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 28.6875:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 28.6875:-2
+\r t
+\a mouseAddPt(t)
+\i 26.78125:-1.99375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 26.6875:-0.625
+\r t
+\a hiZoomInAtMouse()
+\i 27:-0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 27.375:-0.5625
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 28.98125:0.725
+\r t
+\a mouseAddPt(t)
+\i 28.75625:-0.3
+\r t
+\a mouseAddPt(t)
+\i 28.13125:0.725
+\r t
+\a schMouseApplyOrFinish()
+\i 27.9375:-1.125
+\r t
+\a mouseAddPt(t)
+\i 27.2:0.7375
+\r t
+\a mouseAddPt(t)
+\i 27.0625:-1.99375
+\r t
+\a mouseAddPt(t)
+\i 27.425:0.7625
+\r t
+\a mouseAddPt(t)
+\i 27.56875:1.1125
+\r t
+\a mouseAddPt(t)
+\i 28.4:0.7375
+\r t
+\a mouseAddPt(t)
+\i 28.575:1.1125
+\r t
+\a mouseAddPt(t)
+\i 29.26875:0.75625
+\r t
+\a mouseAddPt(t)
+\i 29.50625:0.75625
+\r t
+\a mouseAddPt(t)
+\i 29.24375:1.11875
+\r t
+\a mouseAddPt(t)
+\i 29.24375:1.11875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 29.4375:-2.25
+\r t
+\a hiZoomOutAtMouse()
+\i 29.375:-2.1875
+\r t
+\a hiZoomOutAtMouse()
+\i 29.375:-2.125
+\r t
+\a hiZoomInAtMouse()
+\i 29.4375:-2.25
+\r t
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->libraryName->value="analogLib"
+\r "analogLib"
+\a schCreateInstForm->cellName->value="vdd"
+\o INFO (TECH-150003): The technology database "analogLib" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\r "vdd"
+\a schCreateInstForm->instanceName->value="VDD"
+\r "VDD"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i 28.23125:1.1375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.2875:-0.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->cellName->value="gnd"
+\r "gnd"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a hiZoomOutAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomOutAtMouse()
+\i 29.3125:-2.5
+\r t
+\a hiZoomOutAtMouse()
+\i 29.25:-2.5
+\r t
+\a hiZoomOutAtMouse()
+\i 29.25:-2.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 29.375:-2.25
+\r t
+\a hiZoomOutAtMouse()
+\i 29.3125:-2.1875
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-3.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-3.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-3.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-3.0625
+\r t
+\a mouseAddPt(t)
+\i 29.25:-2.7625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5625:-2.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-2.8125
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.25625:-2.3
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.24375:-2.75
+\r t
+\a schMouseApplyOrFinish()
+\i 29.25:-2.1875
+\r t
+\a mouseAddPt(t)
+\i 29.26875:-0.325
+\r t
+\a mouseAddPt(t)
+\i 29.6125:-0.325
+\r t
+\a mouseAddPt(t)
+\i 29.6375:-2.55625
+\r t
+\a mouseAddPt(t)
+\i 29.24375:-2.54375
+\r t
+\a mouseAddPt(t)
+\i 29.24375:-2.54375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 29.24375:-1.9875
+\r t
+\a mouseAddPt(t)
+\i 29.64375:-2.00625
+\r t
+\a mouseAddPt(t)
+\i 29.26875:-1.15
+\r t
+\a mouseAddPt(t)
+\i 29.61875:-1.14375
+\r t
+\a hiZoomInAtMouse()
+\i 30.0625:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 30.0625:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 30.0625:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 30.0625:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 30.0625:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.625:-1.125
+\r t
+\a hiZoomOutAtMouse()
+\i 30.0625:-2.375
+\r t
+\a hiZoomInAtMouse()
+\i 30.0625:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 28:0.9375
+\r t
+\a hiZoomInAtMouse()
+\i 27.6875:1.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 27.6875:1.6875
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomInAtMouse()
+\i 26.8125:-0.25
+\r t
+\a schMouseApplyOrFinish()
+\i 26.75:-0.3125
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i 26.325:-0.14375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreatePin()
+\o INFO (TECH-150003): The technology database "basic" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\p > 
+\a hiiSetCurrentForm('schCreatePinForm)
+\r t
+\a schCreatePinForm->terminalName->value="A"
+\r "A"
+\a hiiToggleEnterForm(schCreatePinForm)
+\r t
+\a mouseAddPt(t)
+\i 26.73125:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.8125:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.75:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.8125:-0.375
+\r t
+\a schHiCreatePin()
+\r t
+\a schCreatePinForm->terminalName->value="B"
+\r "B"
+\a hiiToggleEnterForm(schCreatePinForm)
+\r t
+\a hiZoomInAtMouse()
+\i 26.75:-1.125
+\r t
+\a mouseAddPt(t)
+\i 26.75:-1.125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.875:-1.375
+\r t
+\a hiZoomInAtMouse()
+\i 26.8125:-2.0625
+\r t
+\a hiZoomInAtMouse()
+\i 26.8125:-2.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 26.8125:-2.0625
+\r t
+\a schHiCreatePin()
+\r t
+\a schCreatePinForm->terminalName->value="C"
+\r "C"
+\a hiiToggleEnterForm(schCreatePinForm)
+\r t
+\a mouseAddPt(t)
+\i 26.79375:-1.98125
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5:-1.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5:-1.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5625:-1.875
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5:-1.9375
+\r t
+\a hiZoomOutAtMouse()
+\i 26.5:-1.9375
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-3.5
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-3.3125
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-3.3125
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-3.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-3.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-3.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-3.4375
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-3.375
+\r t
+\a hiZoomInAtMouse()
+\i 29.75:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 29.75:-0.375
+\r t
+\a hiZoomInAtMouse()
+\i 29.75:-0.4375
+\r t
+\a hiZoomInAtMouse()
+\i 29.75:-0.4375
+\r t
+\a schHiCreatePin()
+\r t
+\a schCreatePinForm->direction->value="output"
+\r "output"
+\a schCreatePinForm->terminalName->value="O"
+\r "O"
+\a hiiToggleEnterForm(schCreatePinForm)
+\r t
+\a mouseAddPt(t)
+\i 30.325:-0.3375
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i 30.36875:-0.3125
+\r t
+\a mouseAddPt(t)
+\i 29.63125:-0.31875
+\r t
+\a mouseAddPt(t)
+\i 29.63125:-0.31875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 30:-0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 30:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 30.0625:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.4375:-0.4375
+\r t
+\a hiZoomInAtMouse()
+\i 29.4375:-0.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 29.4375:-0.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 29.4375:-0.4375
+\r t
+\a schSingleSelectPt()
+\i 31:-1.5625
+\r nil
+\a hiZoomInAtMouse()
+\i 29.125:-2
+\r t
+\a hiZoomInAtMouse()
+\i 29.125:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 29.125:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 29.125:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 29.4375:-1.4375
+\r t
+\a hiZoomInAtMouse()
+\i 29.3125:-2.9375
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-2.8125
+\r t
+\a hiZoomOutAtMouse()
+\i 28.125:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomOutAtMouse()
+\i 28.1875:-2.75
+\r t
+\a hiZoomInAtMouse()
+\i 27.5625:-0.875
+\r t
+\a hiZoomInAtMouse()
+\i 27.5625:-0.875
+\r t
+\a hiZoomOutAtMouse()
+\i 27.6875:-1
+\r t
+\a hiZoomOutAtMouse()
+\i 27.6875:-1.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.6875:-1.625
+\r t
+\a hiZoomInAtMouse()
+\i 27.5:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 27.5:0.75
+\r t
+\a schSingleSelectPt()
+\i 27.5:0.75
+\r t
+\a schSingleSelectPt()
+\i 27.375:0.75
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schSingleSelectPt()
+\i 27.9375:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 27.8125:0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 27.375:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 27.375:0.75
+\r t
+\a schSingleSelectPt()
+\i 27.375:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 27.375:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 27.375:0.75
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i 29.25:-0.375
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="180n M"
+\r "180n M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a _hiFormApplyCB(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiZoomOutAtMouse()
+\i 28.875:-0.0625
+\r t
+\a hiZoomOutAtMouse()
+\i 28.875:-0.0625
+\r t
+\a hiZoomInAtMouse()
+\i 29.375:-1.5
+\r t
+\a hiZoomInAtMouse()
+\i 29.375:-1.5625
+\r t
+\a hiZoomInAtMouse()
+\i 29.375:-1.5625
+\r t
+\a schSingleSelectPt()
+\i 29.1875:-1.1875
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="180n M"
+\r "180n M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiZoomOutAtMouse()
+\i 28.8125:-1.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 28.75:-1.5
+\r t
+\a schSingleSelectPt()
+\i 30.6875:-1.3125
+\r nil
+\a hiZoomInAtMouse()
+\i 29.25:-2.0625
+\r t
+\a schSingleSelectPt()
+\i 29.1875:-2.0625
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="180n M"
+\r "180n M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a _hiFormApplyCB(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-1.75
+\r t
+\a hiZoomOutAtMouse()
+\i 29.5:-1.6875
+\r t
+\a schSingleSelectPt()
+\i 30.75:-1.25
+\r nil
+\a hiZoomInAtMouse()
+\i 28.6875:-1.9375
+\r t
+\a hiZoomInAtMouse()
+\i 28.6875:-2
+\r t
+\a hiZoomInAtMouse()
+\i 28.6875:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 28.75:-2
+\r t
+\a hiZoomOutAtMouse()
+\i 28.6875:-2
+\r t
+\# Memory report: Maximum memory size now 28,853 MB at UTC 2022.12.01 10:16:37.775
+\# Memory report: Maximum memory size now 29,422 MB at UTC 2022.12.01 11:02:47.775
+\# Memory report: Maximum memory size now 28,814 MB at UTC 2022.12.01 14:20:37.775
+\# Memory report: Maximum memory size now 28,245 MB at UTC 2022.12.01 19:47:57.776
+\# Memory report: Maximum memory size now 27,595 MB at UTC 2022.12.01 19:52:57.775
+\# Memory report: Maximum memory size now 27,047 MB at UTC 2022.12.01 20:10:07.775
+\# Memory report: Maximum memory size now 27,691 MB at UTC 2022.12.01 20:20:37.776
+\# Memory report: Maximum memory size now 26,390 MB at UTC 2022.12.01 20:43:17.775
+\# Memory report: Maximum memory size now 27,695 MB at UTC 2022.12.01 20:43:37.776
+\# Memory report: Maximum memory size now 27,095 MB at UTC 2022.12.01 20:48:17.776
+\# Memory report: Maximum memory size now 27,627 MB at UTC 2022.12.01 20:49:27.775
+\# Memory report: Maximum memory size now 28,172 MB at UTC 2022.12.01 22:04:07.775
+\# Memory report: Maximum memory size now 28,770 MB at UTC 2022.12.01 22:26:27.775
+\# Memory report: Maximum memory size now 27,622 MB at UTC 2022.12.01 22:37:57.775
+\# Memory report: Maximum memory size now 26,483 MB at UTC 2022.12.01 22:44:17.776
+\# Memory report: Maximum memory size now 27,793 MB at UTC 2022.12.01 22:44:27.775
+\# Memory report: Maximum memory size now 27,242 MB at UTC 2022.12.01 23:14:17.775
+\# Memory report: Maximum memory size now 28,097 MB at UTC 2022.12.01 23:14:27.775
+\# Memory report: Maximum memory size now 29,671 MB at UTC 2022.12.02 00:00:07.775
+\# Memory report: Maximum memory size now 29,075 MB at UTC 2022.12.02 01:00:37.775
+\# Memory report: Maximum memory size now 27,826 MB at UTC 2022.12.02 01:13:57.775
+\# Memory report: Maximum memory size now 29,063 MB at UTC 2022.12.02 01:14:07.775
+\# Memory report: Maximum memory size now 29,858 MB at UTC 2022.12.02 01:49:17.775
+\# Memory report: Maximum memory size now 29,249 MB at UTC 2022.12.02 02:02:07.776
+\# Memory report: Maximum memory size now 29,835 MB at UTC 2022.12.02 02:12:57.776
+\# Memory report: Maximum memory size now 29,241 MB at UTC 2022.12.02 02:15:37.775
+\# Memory report: Maximum memory size now 29,936 MB at UTC 2022.12.02 02:21:17.775
+\# Memory report: Maximum memory size now 29,306 MB at UTC 2022.12.02 02:23:27.775
+\# Memory report: Maximum memory size now 28,717 MB at UTC 2022.12.02 03:02:07.775
+\# Memory report: Maximum memory size now 28,116 MB at UTC 2022.12.02 03:33:57.775
+\# Memory report: Maximum memory size now 27,233 MB at UTC 2022.12.02 04:11:47.775
+\# Memory report: Maximum memory size now 26,635 MB at UTC 2022.12.02 04:16:47.775
+\# Memory report: Maximum memory size now 26,106 MB at UTC 2022.12.02 04:38:07.775
+\# Memory report: Maximum memory size now 26,660 MB at UTC 2022.12.02 04:42:57.775
+\# Memory report: Maximum memory size now 26,134 MB at UTC 2022.12.02 04:58:17.775
+\# Available memory:         25,366 MB at UTC 2022.12.02 05:09:17.775
+\# Memory report: Maximum memory size now 25,613 MB at UTC 2022.12.02 05:10:07.775
+\# Memory report: Maximum memory size now 25,101 MB at UTC 2022.12.02 05:15:07.775
+\# Memory report: Maximum memory size now 25,621 MB at UTC 2022.12.02 05:23:07.775
+\# Memory report: Maximum memory size now 25,105 MB at UTC 2022.12.02 05:33:27.775
+\# Memory report: Maximum memory size now 24,234 MB at UTC 2022.12.02 05:34:37.775
+\# Memory report: Maximum memory size now 23,725 MB at UTC 2022.12.02 05:45:17.777
+\# Available memory:         23,047 MB at UTC 2022.12.02 05:51:47.775
+\# Memory report: Maximum memory size now 23,256 MB at UTC 2022.12.02 05:54:57.775
+\# Memory report: Maximum memory size now 22,789 MB at UTC 2022.12.02 06:04:17.775
+\# Memory report: Maximum memory size now 22,253 MB at UTC 2022.12.02 06:11:07.775
+\# Memory report: Maximum memory size now 22,932 MB at UTC 2022.12.02 06:13:37.776
+\# Memory report: Maximum memory size now 22,435 MB at UTC 2022.12.02 06:14:37.775
+\# Memory report: Maximum memory size now 21,880 MB at UTC 2022.12.02 06:16:17.776
+\# Memory report: Maximum memory size now 22,632 MB at UTC 2022.12.02 06:28:27.775
+\# Memory report: Maximum memory size now 22,128 MB at UTC 2022.12.02 06:34:37.776
+\# Memory report: Maximum memory size now 21,441 MB at UTC 2022.12.02 06:57:27.776
+\# Memory report: Maximum memory size now 22,142 MB at UTC 2022.12.02 06:59:47.775
+\# Memory report: Maximum memory size now 23,129 MB at UTC 2022.12.02 07:00:07.775
+\# Memory report: Maximum memory size now 22,646 MB at UTC 2022.12.02 07:02:17.775
+\# Memory report: Maximum memory size now 22,176 MB at UTC 2022.12.02 07:36:07.775
+\# Memory report: Maximum memory size now 21,726 MB at UTC 2022.12.02 07:37:27.776
+\# Available memory:         20,884 MB at UTC 2022.12.02 08:10:47.775
+\# Memory report: Maximum memory size now 21,235 MB at UTC 2022.12.02 08:10:47.776
+\# Memory report: Maximum memory size now 21,767 MB at UTC 2022.12.02 08:10:57.776
+\# Memory report: Maximum memory size now 21,313 MB at UTC 2022.12.02 08:13:07.775
+\# Memory report: Maximum memory size now 20,864 MB at UTC 2022.12.02 08:15:27.775
+\# Memory report: Maximum memory size now 21,422 MB at UTC 2022.12.02 08:19:57.775
+\# Memory report: Maximum memory size now 20,996 MB at UTC 2022.12.02 08:23:47.775
+\# Memory report: Maximum memory size now 20,082 MB at UTC 2022.12.02 08:26:17.775
+\# Memory report: Maximum memory size now 21,564 MB at UTC 2022.12.02 08:26:27.776
+\# Memory report: Maximum memory size now 21,118 MB at UTC 2022.12.02 08:33:57.775
+\# Memory report: Maximum memory size now 21,663 MB at UTC 2022.12.02 08:42:17.775
+\# Memory report: Maximum memory size now 21,161 MB at UTC 2022.12.02 08:43:07.775
+\# Memory report: Maximum memory size now 20,718 MB at UTC 2022.12.02 08:49:07.775
+\# Memory report: Maximum memory size now 20,311 MB at UTC 2022.12.02 08:56:37.775
+\# Memory report: Maximum memory size now 20,729 MB at UTC 2022.12.02 08:57:17.775
+\# Memory report: Maximum memory size now 20,288 MB at UTC 2022.12.02 09:00:07.775
+\# Memory report: Maximum memory size now 19,733 MB at UTC 2022.12.02 09:03:37.775
+\# Available memory:         18,575 MB at UTC 2022.12.02 09:03:47.775
+\# Memory report: Maximum memory size now 18,927 MB at UTC 2022.12.02 09:03:47.776
+\# Memory report: Maximum memory size now 19,740 MB at UTC 2022.12.02 09:04:07.776
+\# Memory report: Maximum memory size now 19,258 MB at UTC 2022.12.02 09:04:27.776
+\# Memory report: Maximum memory size now 18,803 MB at UTC 2022.12.02 09:04:47.775
+\# Memory report: Maximum memory size now 19,190 MB at UTC 2022.12.02 09:09:47.776
+\# Memory report: Maximum memory size now 18,735 MB at UTC 2022.12.02 09:10:17.775
+\# Memory report: Maximum memory size now 18,253 MB at UTC 2022.12.02 09:15:27.775
+\# Memory report: Maximum memory size now 18,761 MB at UTC 2022.12.02 09:15:47.775
+\# Memory report: Maximum memory size now 19,161 MB at UTC 2022.12.02 09:21:47.775
+\# Memory report: Maximum memory size now 18,784 MB at UTC 2022.12.02 09:23:27.775
+\# Memory report: Maximum memory size now 18,407 MB at UTC 2022.12.02 09:42:27.775
+\# Memory report: Maximum memory size now 18,778 MB at UTC 2022.12.02 09:47:07.777
+\# Memory report: Maximum memory size now 19,794 MB at UTC 2022.12.02 10:00:07.775
+\# Memory report: Maximum memory size now 20,363 MB at UTC 2022.12.02 10:09:57.775
+\# Memory report: Maximum memory size now 19,919 MB at UTC 2022.12.02 10:15:07.775
+\# Memory report: Maximum memory size now 19,208 MB at UTC 2022.12.02 10:15:37.775
+\# Available memory:         20,278 MB at UTC 2022.12.02 10:15:47.776
+\# Memory report: Maximum memory size now 20,630 MB at UTC 2022.12.02 10:15:47.776
+\# Memory report: Maximum memory size now 20,197 MB at UTC 2022.12.02 10:18:47.775
+\# Memory report: Maximum memory size now 19,133 MB at UTC 2022.12.02 10:29:17.775
+\# Memory report: Maximum memory size now 20,545 MB at UTC 2022.12.02 10:29:37.775
+\# Memory report: Maximum memory size now 20,064 MB at UTC 2022.12.02 10:55:57.775
+\# Memory report: Maximum memory size now 20,682 MB at UTC 2022.12.02 11:03:37.775
+\# Memory report: Maximum memory size now 21,304 MB at UTC 2022.12.02 11:16:37.775
+\# Memory report: Maximum memory size now 20,408 MB at UTC 2022.12.02 11:26:47.775
+\# Memory report: Maximum memory size now 21,801 MB at UTC 2022.12.02 11:27:07.775
+\# Memory report: Maximum memory size now 21,372 MB at UTC 2022.12.02 13:15:17.775
+\# Memory report: Maximum memory size now 20,890 MB at UTC 2022.12.02 13:58:47.775
+\# Memory report: Maximum memory size now 20,446 MB at UTC 2022.12.02 15:01:07.775
+\# Memory report: Maximum memory size now 20,868 MB at UTC 2022.12.02 15:06:27.781
+\# Memory report: Maximum memory size now 21,298 MB at UTC 2022.12.02 15:26:57.775
+\# Memory report: Maximum memory size now 20,815 MB at UTC 2022.12.02 15:47:27.776
+\# Memory report: Maximum memory size now 20,373 MB at UTC 2022.12.02 16:13:27.776
+\# Memory report: Maximum memory size now 19,971 MB at UTC 2022.12.02 17:03:27.775
+\# Memory report: Maximum memory size now 19,445 MB at UTC 2022.12.02 17:27:47.775
+\# Memory report: Maximum memory size now 18,983 MB at UTC 2022.12.02 17:28:57.776
+\# Available memory:         18,434 MB at UTC 2022.12.02 17:30:47.776
+\# Memory report: Maximum memory size now 19,397 MB at UTC 2022.12.02 17:31:07.775
+\# Memory report: Maximum memory size now 19,797 MB at UTC 2022.12.02 17:31:17.775
+\# Memory report: Maximum memory size now 18,864 MB at UTC 2022.12.02 17:37:57.775
+\# Memory report: Maximum memory size now 20,178 MB at UTC 2022.12.02 17:38:07.775
+\# Memory report: Maximum memory size now 19,528 MB at UTC 2022.12.02 18:06:17.775
+\# Memory report: Maximum memory size now 18,975 MB at UTC 2022.12.02 18:07:27.776
+\# Memory report: Maximum memory size now 18,502 MB at UTC 2022.12.02 18:14:47.775
+\# Memory report: Maximum memory size now 18,071 MB at UTC 2022.12.02 18:15:37.775
+\# Memory report: Maximum memory size now 18,618 MB at UTC 2022.12.02 18:15:57.776
+\# Memory report: Maximum memory size now 18,215 MB at UTC 2022.12.02 18:31:07.775
+\# Memory report: Maximum memory size now 17,815 MB at UTC 2022.12.02 18:31:47.775
+\# Memory report: Maximum memory size now 17,424 MB at UTC 2022.12.02 18:33:07.775
+\# Available memory:         16,610 MB at UTC 2022.12.02 18:37:57.775
+\# Memory report: Maximum memory size now 16,962 MB at UTC 2022.12.02 18:37:57.776
+\# Memory report: Maximum memory size now 16,541 MB at UTC 2022.12.02 18:39:57.775
+\# Memory report: Maximum memory size now 16,891 MB at UTC 2022.12.02 18:44:57.775
+\# Memory report: Maximum memory size now 16,280 MB at UTC 2022.12.02 18:56:27.775
+\# Memory report: Maximum memory size now 17,081 MB at UTC 2022.12.02 19:06:57.775
+\# Memory report: Maximum memory size now 17,518 MB at UTC 2022.12.02 19:07:17.775
+\# Memory report: Maximum memory size now 16,656 MB at UTC 2022.12.02 19:08:47.775
+\# Memory report: Maximum memory size now 16,278 MB at UTC 2022.12.02 19:15:17.775
+\# Memory report: Maximum memory size now 17,060 MB at UTC 2022.12.02 19:19:37.776
+\# Memory report: Maximum memory size now 17,671 MB at UTC 2022.12.02 19:23:47.775
+\# Memory report: Maximum memory size now 18,119 MB at UTC 2022.12.02 19:25:07.775
+\# Available memory:         18,302 MB at UTC 2022.12.02 19:27:07.775
+\# Memory report: Maximum memory size now 18,654 MB at UTC 2022.12.02 19:27:07.775
+\# Memory report: Maximum memory size now 18,275 MB at UTC 2022.12.02 19:32:27.776
+\# Memory report: Maximum memory size now 18,641 MB at UTC 2022.12.02 19:55:47.775
+\# Memory report: Maximum memory size now 19,161 MB at UTC 2022.12.02 20:47:47.775
+\# Memory report: Maximum memory size now 18,651 MB at UTC 2022.12.02 21:15:27.776
+\# Memory report: Maximum memory size now 19,150 MB at UTC 2022.12.02 21:15:47.775
+\# Memory report: Maximum memory size now 19,812 MB at UTC 2022.12.02 21:41:57.775
+\# Memory report: Maximum memory size now 19,347 MB at UTC 2022.12.02 21:42:37.775
+\# Memory report: Maximum memory size now 20,032 MB at UTC 2022.12.02 22:39:17.776
+\# Memory report: Maximum memory size now 19,622 MB at UTC 2022.12.02 23:11:07.774
+\# Memory report: Maximum memory size now 19,232 MB at UTC 2022.12.02 23:34:07.775
+\# Memory report: Maximum memory size now 18,682 MB at UTC 2022.12.02 23:35:47.775
+\# Memory report: Maximum memory size now 19,393 MB at UTC 2022.12.02 23:35:57.775
+\# Memory report: Maximum memory size now 18,771 MB at UTC 2022.12.02 23:38:17.776
+\# Memory report: Maximum memory size now 19,805 MB at UTC 2022.12.02 23:47:07.775
+\# Memory report: Maximum memory size now 19,308 MB at UTC 2022.12.03 00:15:07.775
+\# Memory report: Maximum memory size now 18,890 MB at UTC 2022.12.03 00:17:57.775
+\# Memory report: Maximum memory size now 18,519 MB at UTC 2022.12.03 00:33:07.775
+\# Memory report: Maximum memory size now 18,105 MB at UTC 2022.12.03 00:34:07.775
+\# Memory report: Maximum memory size now 18,539 MB at UTC 2022.12.03 00:36:47.775
+\# Memory report: Maximum memory size now 17,352 MB at UTC 2022.12.03 00:38:27.775
+\# Memory report: Maximum memory size now 18,684 MB at UTC 2022.12.03 00:38:37.775
+\# Memory report: Maximum memory size now 19,207 MB at UTC 2022.12.03 00:38:57.775
+\# Memory report: Maximum memory size now 18,471 MB at UTC 2022.12.03 00:44:57.776
+\# Memory report: Maximum memory size now 18,096 MB at UTC 2022.12.03 00:45:47.775
+\# Memory report: Maximum memory size now 18,494 MB at UTC 2022.12.03 00:47:47.775
+\# Memory report: Maximum memory size now 18,962 MB at UTC 2022.12.03 00:52:57.775
+\# Memory report: Maximum memory size now 18,577 MB at UTC 2022.12.03 00:53:07.775
+\# Memory report: Maximum memory size now 18,204 MB at UTC 2022.12.03 00:55:47.775
+\# Memory report: Maximum memory size now 17,833 MB at UTC 2022.12.03 01:02:07.852
+\# Memory report: Maximum memory size now 17,469 MB at UTC 2022.12.03 01:03:57.775
+\# Memory report: Maximum memory size now 17,096 MB at UTC 2022.12.03 01:09:17.775
+\# Memory report: Maximum memory size now 17,550 MB at UTC 2022.12.03 01:10:07.775
+\# Available memory:         16,572 MB at UTC 2022.12.03 01:11:27.775
+\# Memory report: Maximum memory size now 16,924 MB at UTC 2022.12.03 01:11:27.775
+\# Memory report: Maximum memory size now 17,418 MB at UTC 2022.12.03 01:11:57.775
+\# Memory report: Maximum memory size now 17,892 MB at UTC 2022.12.03 01:14:07.775
+\# Memory report: Maximum memory size now 17,507 MB at UTC 2022.12.03 01:15:17.775
+\# Memory report: Maximum memory size now 18,041 MB at UTC 2022.12.03 01:15:37.776
+\# Memory report: Maximum memory size now 17,565 MB at UTC 2022.12.03 01:18:07.775
+\# Memory report: Maximum memory size now 17,053 MB at UTC 2022.12.03 01:18:17.775
+\# Memory report: Maximum memory size now 16,603 MB at UTC 2022.12.03 01:19:07.776
+\# Memory report: Maximum memory size now 16,277 MB at UTC 2022.12.03 01:19:37.775
+\# Memory report: Maximum memory size now 15,418 MB at UTC 2022.12.03 01:21:57.775
+\# Memory report: Maximum memory size now 16,312 MB at UTC 2022.12.03 01:22:07.775
+\# Memory report: Maximum memory size now 15,499 MB at UTC 2022.12.03 01:31:57.775
+\# Memory report: Maximum memory size now 15,904 MB at UTC 2022.12.03 01:35:57.775
+\# Memory report: Maximum memory size now 15,506 MB at UTC 2022.12.03 01:37:17.775
+\# Available memory:         15,004 MB at UTC 2022.12.03 01:38:07.775
+\# Memory report: Maximum memory size now 14,674 MB at UTC 2022.12.03 01:43:27.775
+\# Memory report: Maximum memory size now 15,861 MB at UTC 2022.12.03 01:43:37.775
+\# Memory report: Maximum memory size now 15,413 MB at UTC 2022.12.03 01:45:07.775
+\# Memory report: Maximum memory size now 15,771 MB at UTC 2022.12.03 01:45:47.775
+\# Memory report: Maximum memory size now 15,402 MB at UTC 2022.12.03 01:46:17.775
+\a hiZoomOutAtMouse()
+\i 27.5625:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 27.625:-0.0625
+\r t
+\a hiZoomInAtMouse()
+\i 27.625:-0.125
+\r t
+\a hiZoomInAtMouse()
+\i 27.625:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 27.625:-0.125
+\r t
+\a hiZoomInAtMouse()
+\i 27.625:-0.125
+\r t
+\a hiExportImageDialog(getCurrentWindow())
+\a nrSetWindowVisibility(ExportImageDialog "show")
+\r t
+\r t
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\a nrResizeWindow(ExportImageDialog list(252 52 517 527))
+\r t
+\a ExportImageDialog->visibleArea->value = nil
+\r nil
+\a ExportImageDialog->selectedArea->value = t
+\r t
+\a ExportImageDialog->select->value = t
+\r t
+\p > 
+\a ExportImageDialog->select->value = t
+\r t
+\p > 
+\a ExportImageDialog->select->value = t
+\r t
+\p > 
+\a ExportImageDialog->selectedArea->value = nil
+\r nil
+\a ExportImageDialog->visibleArea->value = t
+\r t
+\a ExportImageDialog->visibleArea->value = nil
+\r nil
+\a ExportImageDialog->selectedArea->value = t
+\r t
+\a ExportImageDialog->bgColorSelect->value = t
+\r t
+\a nrSetWindowVisibility(BackgroundColorDialog "show")
+\r t
+\a nrSetCurrentWindow(BackgroundColorDialog)
+\r t
+\a nrResizeWindow(BackgroundColorDialog list(248 85 522 402))
+\r t
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\# Memory report: Maximum memory size now 14,678 MB at UTC 2022.12.03 01:51:47.775
+\# Memory report: Maximum memory size now 14,126 MB at UTC 2022.12.03 01:53:07.775
+\# Memory report: Maximum memory size now 14,453 MB at UTC 2022.12.03 01:53:17.775
+\# Memory report: Maximum memory size now 14,777 MB at UTC 2022.12.03 01:53:27.775
+\# Memory report: Maximum memory size now 14,394 MB at UTC 2022.12.03 01:53:57.775
+\# Memory report: Maximum memory size now 14,054 MB at UTC 2022.12.03 01:54:07.776
+\# Available memory:         13,625 MB at UTC 2022.12.03 01:54:27.775
+\# Memory report: Maximum memory size now 13,718 MB at UTC 2022.12.03 01:54:47.775
+\# Memory report: Maximum memory size now 13,375 MB at UTC 2022.12.03 01:55:17.775
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\# Memory report: Maximum memory size now 13,086 MB at UTC 2022.12.03 02:01:47.776
+\# Available memory:         12,377 MB at UTC 2022.12.03 02:03:27.776
+\# Memory report: Maximum memory size now 12,733 MB at UTC 2022.12.03 02:03:27.776
+\# Memory report: Maximum memory size now 13,011 MB at UTC 2022.12.03 02:04:27.775
+\# Memory report: Maximum memory size now 12,614 MB at UTC 2022.12.03 02:10:17.776
+\# Memory report: Maximum memory size now 12,985 MB at UTC 2022.12.03 02:11:37.775
+\# Memory report: Maximum memory size now 12,641 MB at UTC 2022.12.03 02:11:57.775
+\# Memory report: Maximum memory size now 12,961 MB at UTC 2022.12.03 02:12:07.775
+\# Memory report: Maximum memory size now 12,566 MB at UTC 2022.12.03 02:12:17.775
+\# Memory report: Maximum memory size now 12,888 MB at UTC 2022.12.03 02:12:47.775
+\# Memory report: Maximum memory size now 13,288 MB at UTC 2022.12.03 02:12:57.775
+\# Memory report: Maximum memory size now 12,491 MB at UTC 2022.12.03 02:14:57.775
+\# Memory report: Maximum memory size now 12,245 MB at UTC 2022.12.03 02:16:07.877
+\# Memory report: Maximum memory size now 11,668 MB at UTC 2022.12.03 02:17:47.775
+\# Available memory:         11,119 MB at UTC 2022.12.03 02:18:27.775
+\# Memory report: Maximum memory size now 11,368 MB at UTC 2022.12.03 02:18:37.775
+\# Memory report: Maximum memory size now 10,910 MB at UTC 2022.12.03 02:20:27.775
+\# Memory report: Maximum memory size now 10,674 MB at UTC 2022.12.03 02:35:57.775
+\# Available memory:         10,104 MB at UTC 2022.12.03 02:41:47.775
+\# Memory report: Maximum memory size now 10,459 MB at UTC 2022.12.03 02:41:47.775
+\# Memory report: Maximum memory size now 10,030 MB at UTC 2022.12.03 02:43:37.776
+\# Memory report: Maximum memory size now 10,465 MB at UTC 2022.12.03 02:43:47.776
+\# Memory report: Maximum memory size now 10,249 MB at UTC 2022.12.03 02:44:47.776
+\# Memory report: Maximum memory size now 9,989 MB at UTC 2022.12.03 02:45:07.775
+\# Memory report: Maximum memory size now 10,352 MB at UTC 2022.12.03 02:46:27.775
+\# Memory report: Maximum memory size now 10,143 MB at UTC 2022.12.03 02:53:37.775
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\a nrResizeWindow(ExportImageDialog list(0 0 517 527))
+\r t
+\a hiZoomOutAtMouse()
+\i 29:0.25
+\r t
+\a hiZoomInAtMouse()
+\i 28.5:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 28.5:-0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 28.5:-0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i 28.5:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 27.5625:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 27.5625:0.375
+\r t
+\# Memory report: Maximum memory size now 9,932 MB at UTC 2022.12.03 02:58:36.775
+\# Memory report: Maximum memory size now 10,514 MB at UTC 2022.12.03 03:00:06.775
+\# Memory report: Maximum memory size now 10,260 MB at UTC 2022.12.03 03:08:06.775
+\# Memory report: Maximum memory size now 10,467 MB at UTC 2022.12.03 03:08:16.775
+\# Memory report: Maximum memory size now 10,117 MB at UTC 2022.12.03 03:08:26.775
+\# Memory report: Maximum memory size now 10,512 MB at UTC 2022.12.03 03:08:36.775
+\# Memory report: Maximum memory size now 10,817 MB at UTC 2022.12.03 03:08:56.775
+\# Memory report: Maximum memory size now 9,953 MB at UTC 2022.12.03 03:10:16.775
+\# Memory report: Maximum memory size now 10,309 MB at UTC 2022.12.03 03:10:26.775
+\# Memory report: Maximum memory size now 9,976 MB at UTC 2022.12.03 03:10:36.775
+\# Memory report: Maximum memory size now 10,705 MB at UTC 2022.12.03 03:11:16.775
+\# Memory report: Maximum memory size now 10,449 MB at UTC 2022.12.03 03:15:16.775
+\# Memory report: Maximum memory size now 10,231 MB at UTC 2022.12.03 03:19:36.775
+\# Memory report: Maximum memory size now 11,107 MB at UTC 2022.12.03 03:19:56.775
+\i ddsServOpen("inverter_1" "inverter_1_1_man_tb" "" "edit" nil)
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a hiFormDone(deOpenForm)
+\r t
+\# Displaying modal dbox "_schDBox", title "Question"
+\p > 
+\a hiDBoxOK(_schDBox)
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant2) "/")
+\r t
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a schSingleSelectPt()
+\i -3.3125:0.6875
+\r t
+\a schSingleSelectPt()
+\i -3.3125:0.75
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Memory report: Maximum memory size now 10,489 MB at UTC 2022.12.03 03:33:55.775
+\# Memory report: Maximum memory size now 11,006 MB at UTC 2022.12.03 03:34:05.775
+\# Memory report: Maximum memory size now 10,710 MB at UTC 2022.12.03 03:35:45.775
+\# Memory report: Maximum memory size now 10,948 MB at UTC 2022.12.03 03:36:05.776
+\# Memory report: Maximum memory size now 10,648 MB at UTC 2022.12.03 03:39:05.776
+\# Memory report: Maximum memory size now 10,259 MB at UTC 2022.12.03 03:39:55.775
+\# Memory report: Maximum memory size now 10,677 MB at UTC 2022.12.03 03:41:15.776
+\# Memory report: Maximum memory size now 10,281 MB at UTC 2022.12.03 03:41:25.776
+\# Memory report: Maximum memory size now 9,953 MB at UTC 2022.12.03 03:42:05.775
+\# Memory report: Maximum memory size now 10,436 MB at UTC 2022.12.03 03:48:15.776
+\# Memory report: Maximum memory size now 10,023 MB at UTC 2022.12.03 03:48:25.775
+\# Available memory:          8,407 MB at UTC 2022.12.03 03:48:45.775
+\# Memory report: Maximum memory size now 8,771 MB at UTC 2022.12.03 03:48:45.775
+\# Available memory:          9,519 MB at UTC 2022.12.03 03:48:55.775
+\# Memory report: Maximum memory size now 9,882 MB at UTC 2022.12.03 03:48:55.776
+\# Memory report: Maximum memory size now 9,497 MB at UTC 2022.12.03 03:49:05.775
+\# Memory report: Maximum memory size now 9,301 MB at UTC 2022.12.03 03:50:05.775
+\# Memory report: Maximum memory size now 9,648 MB at UTC 2022.12.03 03:51:25.775
+\# Memory report: Maximum memory size now 9,400 MB at UTC 2022.12.03 03:52:05.775
+\# Memory report: Maximum memory size now 9,678 MB at UTC 2022.12.03 03:52:15.775
+\# Memory report: Maximum memory size now 9,209 MB at UTC 2022.12.03 03:52:25.775
+\# Memory report: Maximum memory size now 9,657 MB at UTC 2022.12.03 03:53:45.775
+\# Memory report: Maximum memory size now 9,316 MB at UTC 2022.12.03 03:54:35.775
+\# Memory report: Maximum memory size now 9,750 MB at UTC 2022.12.03 03:54:45.775
+\# Memory report: Maximum memory size now 9,461 MB at UTC 2022.12.03 03:57:25.776
+\# Memory report: Maximum memory size now 9,699 MB at UTC 2022.12.03 03:57:45.776
+\# Available memory:          7,771 MB at UTC 2022.12.03 03:59:55.775
+\# Memory report: Maximum memory size now 8,135 MB at UTC 2022.12.03 03:59:55.775
+\# Memory report: Maximum memory size now 8,757 MB at UTC 2022.12.03 04:00:05.776
+\# Available memory:          8,494 MB at UTC 2022.12.03 04:00:15.775
+\# Available memory:         10,167 MB at UTC 2022.12.03 04:00:25.775
+\# Memory report: Maximum memory size now 10,530 MB at UTC 2022.12.03 04:00:25.776
+\# Memory report: Maximum memory size now 10,148 MB at UTC 2022.12.03 04:01:25.775
+\# Available memory:          8,992 MB at UTC 2022.12.03 04:01:45.776
+\# Memory report: Maximum memory size now 9,356 MB at UTC 2022.12.03 04:01:45.776
+\# Available memory:          9,997 MB at UTC 2022.12.03 04:01:55.775
+\# Memory report: Maximum memory size now 10,360 MB at UTC 2022.12.03 04:01:55.776
+\# Memory report: Maximum memory size now 10,103 MB at UTC 2022.12.03 04:02:05.776
+\# Memory report: Maximum memory size now 9,905 MB at UTC 2022.12.03 04:02:45.776
+\# Memory report: Maximum memory size now 9,605 MB at UTC 2022.12.03 04:04:15.775
+\# Memory report: Maximum memory size now 9,894 MB at UTC 2022.12.03 04:05:55.775
+\# Memory report: Maximum memory size now 10,370 MB at UTC 2022.12.03 04:07:05.775
+\# Memory report: Maximum memory size now 10,040 MB at UTC 2022.12.03 04:07:15.776
+\# Available memory:          8,651 MB at UTC 2022.12.03 04:07:35.775
+\# Memory report: Maximum memory size now 9,015 MB at UTC 2022.12.03 04:07:35.776
+\# Available memory:         10,008 MB at UTC 2022.12.03 04:07:45.775
+\# Memory report: Maximum memory size now 10,371 MB at UTC 2022.12.03 04:07:45.775
+\# Memory report: Maximum memory size now 9,844 MB at UTC 2022.12.03 04:08:05.775
+\# Memory report: Maximum memory size now 10,315 MB at UTC 2022.12.03 04:09:15.775
+\# Memory report: Maximum memory size now 10,551 MB at UTC 2022.12.03 04:09:35.775
+\# Memory report: Maximum memory size now 11,086 MB at UTC 2022.12.03 04:09:55.775
+\# Memory report: Maximum memory size now 10,537 MB at UTC 2022.12.03 04:10:15.775
+\# Memory report: Maximum memory size now 10,054 MB at UTC 2022.12.03 04:10:25.775
+\# Memory report: Maximum memory size now 9,570 MB at UTC 2022.12.03 04:10:35.775
+\# Memory report: Maximum memory size now 10,414 MB at UTC 2022.12.03 04:10:45.775
+\# Memory report: Maximum memory size now 10,070 MB at UTC 2022.12.03 04:10:55.775
+\# Memory report: Maximum memory size now 9,584 MB at UTC 2022.12.03 04:11:05.776
+\# Available memory:          9,047 MB at UTC 2022.12.03 04:14:45.775
+\# Memory report: Maximum memory size now 9,394 MB at UTC 2022.12.03 04:15:05.776
+\# Memory report: Maximum memory size now 9,653 MB at UTC 2022.12.03 04:16:25.775
+\# Memory report: Maximum memory size now 9,374 MB at UTC 2022.12.03 04:19:15.775
+\# Memory report: Maximum memory size now 9,008 MB at UTC 2022.12.03 04:21:55.775
+\# Memory report: Maximum memory size now 8,828 MB at UTC 2022.12.03 04:24:05.776
+\# Memory report: Maximum memory size now 9,082 MB at UTC 2022.12.03 04:25:15.776
+\# Memory report: Maximum memory size now 8,901 MB at UTC 2022.12.03 04:26:15.775
+\# Memory report: Maximum memory size now 9,342 MB at UTC 2022.12.03 04:31:45.777
+\# Memory report: Maximum memory size now 9,651 MB at UTC 2022.12.03 04:31:55.775
+\# Memory report: Maximum memory size now 9,428 MB at UTC 2022.12.03 04:32:55.775
+\# Memory report: Maximum memory size now 9,855 MB at UTC 2022.12.03 04:34:35.775
+\# Memory report: Maximum memory size now 9,521 MB at UTC 2022.12.03 04:37:45.775
+\# Memory report: Maximum memory size now 9,295 MB at UTC 2022.12.03 04:37:55.775
+\# Memory report: Maximum memory size now 9,762 MB at UTC 2022.12.03 04:38:05.775
+\# Memory report: Maximum memory size now 9,524 MB at UTC 2022.12.03 04:40:35.775
+\# Memory report: Maximum memory size now 9,727 MB at UTC 2022.12.03 04:41:15.776
+\# Memory report: Maximum memory size now 9,937 MB at UTC 2022.12.03 04:42:25.775
+\# Memory report: Maximum memory size now 9,627 MB at UTC 2022.12.03 04:43:15.775
+\# Memory report: Maximum memory size now 9,877 MB at UTC 2022.12.03 04:43:25.776
+\# Available memory:         10,465 MB at UTC 2022.12.03 04:46:25.775
+\# Memory report: Maximum memory size now 10,829 MB at UTC 2022.12.03 04:46:25.775
+\# Memory report: Maximum memory size now 11,644 MB at UTC 2022.12.03 04:47:45.776
+\# Memory report: Maximum memory size now 11,394 MB at UTC 2022.12.03 04:50:55.775
+\# Memory report: Maximum memory size now 11,637 MB at UTC 2022.12.03 05:00:05.776
+\# Available memory:         11,419 MB at UTC 2022.12.03 05:01:15.775
+\# Memory report: Maximum memory size now 11,398 MB at UTC 2022.12.03 05:13:05.775
+\# Memory report: Maximum memory size now 11,149 MB at UTC 2022.12.03 05:15:15.776
+\# Memory report: Maximum memory size now 11,371 MB at UTC 2022.12.03 05:15:45.775
+\# Memory report: Maximum memory size now 11,684 MB at UTC 2022.12.03 05:25:25.776
+\# Memory report: Maximum memory size now 11,449 MB at UTC 2022.12.03 05:32:45.775
+\# Memory report: Maximum memory size now 11,134 MB at UTC 2022.12.03 05:40:15.775
+\# Available memory:          8,656 MB at UTC 2022.12.03 05:40:45.775
+\# Memory report: Maximum memory size now 9,019 MB at UTC 2022.12.03 05:40:45.775
+\# Available memory:         10,938 MB at UTC 2022.12.03 05:40:55.775
+\# Memory report: Maximum memory size now 11,302 MB at UTC 2022.12.03 05:40:55.775
+\# Memory report: Maximum memory size now 10,908 MB at UTC 2022.12.03 05:41:05.775
+\# Memory report: Maximum memory size now 11,267 MB at UTC 2022.12.03 05:42:35.776
+\# Memory report: Maximum memory size now 10,947 MB at UTC 2022.12.03 05:42:45.775
+\# Available memory:          8,653 MB at UTC 2022.12.03 05:43:15.775
+\# Memory report: Maximum memory size now 9,016 MB at UTC 2022.12.03 05:43:15.775
+\# Available memory:         10,866 MB at UTC 2022.12.03 05:43:25.775
+\# Memory report: Maximum memory size now 11,230 MB at UTC 2022.12.03 05:43:25.776
+\# Memory report: Maximum memory size now 10,916 MB at UTC 2022.12.03 05:43:35.775
+\# Memory report: Maximum memory size now 10,685 MB at UTC 2022.12.03 05:44:05.776
+\# Available memory:          8,793 MB at UTC 2022.12.03 05:44:55.775
+\# Memory report: Maximum memory size now 9,157 MB at UTC 2022.12.03 05:44:55.776
+\# Memory report: Maximum memory size now 9,524 MB at UTC 2022.12.03 05:45:05.775
+\# Available memory:         10,842 MB at UTC 2022.12.03 05:45:25.775
+\# Memory report: Maximum memory size now 11,206 MB at UTC 2022.12.03 05:45:25.776
+\# Available memory:          8,741 MB at UTC 2022.12.03 05:46:15.775
+\# Memory report: Maximum memory size now 9,104 MB at UTC 2022.12.03 05:46:15.776
+\# Available memory:         10,835 MB at UTC 2022.12.03 05:46:25.775
+\# Memory report: Maximum memory size now 11,198 MB at UTC 2022.12.03 05:46:25.776
+\# Memory report: Maximum memory size now 10,662 MB at UTC 2022.12.03 05:46:45.775
+\# Memory report: Maximum memory size now 11,183 MB at UTC 2022.12.03 05:47:25.776
+\# Memory report: Maximum memory size now 10,903 MB at UTC 2022.12.03 05:47:45.776
+\# Memory report: Maximum memory size now 11,208 MB at UTC 2022.12.03 05:48:15.776
+\# Memory report: Maximum memory size now 10,696 MB at UTC 2022.12.03 05:48:35.775
+\# Memory report: Maximum memory size now 10,486 MB at UTC 2022.12.03 05:54:05.775
+\# Memory report: Maximum memory size now 10,845 MB at UTC 2022.12.03 06:03:55.775
+\# Memory report: Maximum memory size now 10,518 MB at UTC 2022.12.03 06:05:45.775
+\# Memory report: Maximum memory size now 10,913 MB at UTC 2022.12.03 06:17:55.775
+\# Memory report: Maximum memory size now 10,576 MB at UTC 2022.12.03 06:18:55.775
+\# Memory report: Maximum memory size now 10,935 MB at UTC 2022.12.03 06:25:55.775
+\# Memory report: Maximum memory size now 10,708 MB at UTC 2022.12.03 06:26:25.775
+\# Memory report: Maximum memory size now 11,235 MB at UTC 2022.12.03 06:26:45.776
+\# Memory report: Maximum memory size now 10,924 MB at UTC 2022.12.03 06:27:15.775
+\# Memory report: Maximum memory size now 10,685 MB at UTC 2022.12.03 06:28:45.775
+\# Memory report: Maximum memory size now 10,999 MB at UTC 2022.12.03 06:36:25.775
+\# Memory report: Maximum memory size now 10,628 MB at UTC 2022.12.03 06:36:35.775
+\# Memory report: Maximum memory size now 10,408 MB at UTC 2022.12.03 06:38:45.775
+\# Memory report: Maximum memory size now 10,635 MB at UTC 2022.12.03 06:39:05.777
+\# Memory report: Maximum memory size now 11,096 MB at UTC 2022.12.03 06:39:15.775
+\# Memory report: Maximum memory size now 11,448 MB at UTC 2022.12.03 06:40:25.775
+\# Memory report: Maximum memory size now 11,222 MB at UTC 2022.12.03 06:40:55.775
+\# Memory report: Maximum memory size now 11,002 MB at UTC 2022.12.03 06:44:15.776
+\# Memory report: Maximum memory size now 11,282 MB at UTC 2022.12.03 06:51:35.776
+\# Memory report: Maximum memory size now 11,504 MB at UTC 2022.12.03 06:57:45.775
+\# Memory report: Maximum memory size now 10,901 MB at UTC 2022.12.03 07:00:15.775
+\# Available memory:         12,376 MB at UTC 2022.12.03 07:00:25.775
+\# Memory report: Maximum memory size now 12,739 MB at UTC 2022.12.03 07:00:25.776
+\# Memory report: Maximum memory size now 13,472 MB at UTC 2022.12.03 07:00:35.775
+\# Memory report: Maximum memory size now 12,715 MB at UTC 2022.12.03 07:02:55.775
+\# Memory report: Maximum memory size now 13,510 MB at UTC 2022.12.03 07:03:05.775
+\# Memory report: Maximum memory size now 13,211 MB at UTC 2022.12.03 07:15:25.776
+\# Memory report: Maximum memory size now 13,530 MB at UTC 2022.12.03 07:15:45.776
+\# Available memory:         13,608 MB at UTC 2022.12.03 07:23:45.775
+\# Memory report: Maximum memory size now 13,972 MB at UTC 2022.12.03 07:23:45.775
+\# Memory report: Maximum memory size now 14,562 MB at UTC 2022.12.03 07:24:05.775
+\# Memory report: Maximum memory size now 14,263 MB at UTC 2022.12.03 07:42:15.775
+\# Memory report: Maximum memory size now 13,974 MB at UTC 2022.12.03 07:42:35.775
+\# Memory report: Maximum memory size now 14,378 MB at UTC 2022.12.03 07:42:45.775
+\# Memory report: Maximum memory size now 14,053 MB at UTC 2022.12.03 07:42:55.776
+\# Memory report: Maximum memory size now 13,717 MB at UTC 2022.12.03 07:43:55.775
+\# Memory report: Maximum memory size now 13,341 MB at UTC 2022.12.03 07:44:05.775
+\# Memory report: Maximum memory size now 14,059 MB at UTC 2022.12.03 07:44:25.775
+\# Memory report: Maximum memory size now 13,741 MB at UTC 2022.12.03 07:44:35.775
+\# Memory report: Maximum memory size now 14,977 MB at UTC 2022.12.03 08:00:05.775
+\# Available memory:         14,846 MB at UTC 2022.12.03 08:00:15.775
+\# Memory report: Maximum memory size now 15,313 MB at UTC 2022.12.03 08:01:55.775
+\# Memory report: Maximum memory size now 14,988 MB at UTC 2022.12.03 08:15:15.776
+\# Memory report: Maximum memory size now 14,371 MB at UTC 2022.12.03 08:35:35.775
+\# Memory report: Maximum memory size now 13,876 MB at UTC 2022.12.03 08:35:45.776
+\# Memory report: Maximum memory size now 15,508 MB at UTC 2022.12.03 08:35:55.775
+\# Memory report: Maximum memory size now 16,004 MB at UTC 2022.12.03 08:46:45.789
+\# Available memory:         17,396 MB at UTC 2022.12.03 09:00:05.776
+\# Memory report: Maximum memory size now 17,759 MB at UTC 2022.12.03 09:00:05.776
+\# Memory report: Maximum memory size now 18,399 MB at UTC 2022.12.03 09:00:15.775
+\# Memory report: Maximum memory size now 18,033 MB at UTC 2022.12.03 09:46:05.775
+\# Memory report: Maximum memory size now 18,643 MB at UTC 2022.12.03 10:13:55.775
+\# Memory report: Maximum memory size now 19,067 MB at UTC 2022.12.03 10:14:45.775
+\# Available memory:         19,100 MB at UTC 2022.12.03 10:15:45.776
+\# Memory report: Maximum memory size now 19,464 MB at UTC 2022.12.03 10:15:45.776
+\# Memory report: Maximum memory size now 19,059 MB at UTC 2022.12.03 12:15:05.775
+\# Memory report: Maximum memory size now 18,425 MB at UTC 2022.12.03 14:04:45.775
+\# Memory report: Maximum memory size now 18,063 MB at UTC 2022.12.03 15:03:35.775
+\# Memory report: Maximum memory size now 18,422 MB at UTC 2022.12.03 15:10:25.775
+\# Memory report: Maximum memory size now 18,812 MB at UTC 2022.12.03 15:46:15.775
+\# Memory report: Maximum memory size now 19,209 MB at UTC 2022.12.03 16:09:35.776
+\# Memory report: Maximum memory size now 18,825 MB at UTC 2022.12.03 17:45:45.775
+\# Memory report: Maximum memory size now 18,397 MB at UTC 2022.12.03 18:15:25.775
+\# Memory report: Maximum memory size now 18,859 MB at UTC 2022.12.03 18:15:45.775
+\# Memory report: Maximum memory size now 18,464 MB at UTC 2022.12.03 18:51:05.775
+\# Memory report: Maximum memory size now 18,099 MB at UTC 2022.12.03 19:35:05.775
+\# Available memory:         17,211 MB at UTC 2022.12.03 20:15:25.775
+\# Memory report: Maximum memory size now 17,574 MB at UTC 2022.12.03 20:15:25.776
+\# Memory report: Maximum memory size now 18,013 MB at UTC 2022.12.03 20:15:45.776
+\# Memory report: Maximum memory size now 17,646 MB at UTC 2022.12.03 22:13:05.775
+\# Memory report: Maximum memory size now 17,230 MB at UTC 2022.12.03 23:14:55.775
+\# Memory report: Maximum memory size now 17,678 MB at UTC 2022.12.03 23:24:55.775
+\# Memory report: Maximum memory size now 18,031 MB at UTC 2022.12.03 23:29:55.775
+\# Memory report: Maximum memory size now 17,606 MB at UTC 2022.12.04 00:00:15.775
+\# Memory report: Maximum memory size now 18,952 MB at UTC 2022.12.04 00:00:25.776
+\# Available memory:         18,868 MB at UTC 2022.12.04 00:48:15.775
+\# Memory report: Maximum memory size now 18,520 MB at UTC 2022.12.04 01:15:05.775
+\# Memory report: Maximum memory size now 18,109 MB at UTC 2022.12.04 05:09:35.775
+\# Memory report: Maximum memory size now 17,684 MB at UTC 2022.12.04 05:15:05.775
+\# Memory report: Maximum memory size now 18,080 MB at UTC 2022.12.04 05:15:25.776
+\# Memory report: Maximum memory size now 17,723 MB at UTC 2022.12.04 05:29:05.775
+\# Memory report: Maximum memory size now 18,154 MB at UTC 2022.12.04 05:30:55.775
+\# Memory report: Maximum memory size now 17,678 MB at UTC 2022.12.04 05:32:05.775
+\# Memory report: Maximum memory size now 18,063 MB at UTC 2022.12.04 05:33:05.776
+\# Memory report: Maximum memory size now 17,637 MB at UTC 2022.12.04 05:33:55.775
+\# Memory report: Maximum memory size now 18,058 MB at UTC 2022.12.04 05:35:45.775
+\# Memory report: Maximum memory size now 17,658 MB at UTC 2022.12.04 05:37:15.775
+\# Memory report: Maximum memory size now 18,074 MB at UTC 2022.12.04 05:37:35.775
+\# Memory report: Maximum memory size now 17,707 MB at UTC 2022.12.04 05:42:15.775
+\# Memory report: Maximum memory size now 18,090 MB at UTC 2022.12.04 05:43:05.775
+\# Memory report: Maximum memory size now 17,663 MB at UTC 2022.12.04 05:44:05.775
+\# Memory report: Maximum memory size now 18,057 MB at UTC 2022.12.04 05:44:35.775
+\# Memory report: Maximum memory size now 17,652 MB at UTC 2022.12.04 05:45:15.775
+\# Memory report: Maximum memory size now 18,034 MB at UTC 2022.12.04 05:46:35.775
+\# Memory report: Maximum memory size now 18,670 MB at UTC 2022.12.04 06:00:05.775
+\# Memory report: Maximum memory size now 18,142 MB at UTC 2022.12.04 07:46:55.775
+\# Memory report: Maximum memory size now 17,719 MB at UTC 2022.12.04 07:48:45.775
+\# Memory report: Maximum memory size now 18,282 MB at UTC 2022.12.04 08:12:25.775
+\# Memory report: Maximum memory size now 17,855 MB at UTC 2022.12.04 08:23:25.775
+\# Memory report: Maximum memory size now 18,278 MB at UTC 2022.12.04 08:45:35.775
+\# Memory report: Maximum memory size now 19,365 MB at UTC 2022.12.04 09:00:05.775
+\# Memory report: Maximum memory size now 19,754 MB at UTC 2022.12.04 09:11:45.775
+\# Memory report: Maximum memory size now 20,194 MB at UTC 2022.12.04 09:30:45.775
+\# Memory report: Maximum memory size now 19,328 MB at UTC 2022.12.04 10:00:15.776
+\# Memory report: Maximum memory size now 20,595 MB at UTC 2022.12.04 10:00:25.779
+\# Memory report: Maximum memory size now 19,951 MB at UTC 2022.12.04 10:00:35.775
+\# Available memory:         20,819 MB at UTC 2022.12.04 10:00:55.775
+\# Memory report: Maximum memory size now 21,182 MB at UTC 2022.12.04 10:00:55.775
+\# Memory report: Maximum memory size now 22,479 MB at UTC 2022.12.04 12:00:05.775
+\# Memory report: Maximum memory size now 21,850 MB at UTC 2022.12.04 12:00:15.776
+\# Memory report: Maximum memory size now 23,070 MB at UTC 2022.12.04 12:00:25.776
+\# Available memory:         22,721 MB at UTC 2022.12.04 12:00:35.776
+\# Memory report: Maximum memory size now 22,516 MB at UTC 2022.12.04 13:15:05.775
+\# Memory report: Maximum memory size now 21,868 MB at UTC 2022.12.04 14:15:25.776
+\# Memory report: Maximum memory size now 22,375 MB at UTC 2022.12.04 14:15:45.775
+\# Memory report: Maximum memory size now 22,816 MB at UTC 2022.12.04 15:10:45.775
+\# Memory report: Maximum memory size now 22,349 MB at UTC 2022.12.04 16:41:35.775
+\# Memory report: Maximum memory size now 21,832 MB at UTC 2022.12.04 19:15:25.775
+\# Memory report: Maximum memory size now 22,262 MB at UTC 2022.12.04 19:16:05.775
+\# Memory report: Maximum memory size now 22,728 MB at UTC 2022.12.04 21:01:25.776
+\# Memory report: Maximum memory size now 22,201 MB at UTC 2022.12.04 21:50:15.775
+\# Memory report: Maximum memory size now 22,646 MB at UTC 2022.12.04 21:55:25.775
+\# Memory report: Maximum memory size now 23,115 MB at UTC 2022.12.04 23:49:45.775
+\# Memory report: Maximum memory size now 23,621 MB at UTC 2022.12.05 00:00:05.776
+\# Memory report: Maximum memory size now 22,884 MB at UTC 2022.12.05 01:00:15.776
+\# Memory report: Maximum memory size now 24,182 MB at UTC 2022.12.05 01:00:25.775
+\# Memory report: Maximum memory size now 23,699 MB at UTC 2022.12.05 02:15:05.776
+\# Memory report: Maximum memory size now 21,857 MB at UTC 2022.12.05 02:48:45.775
+\# Memory report: Maximum memory size now 23,873 MB at UTC 2022.12.05 02:49:25.776
+\# Memory report: Maximum memory size now 23,280 MB at UTC 2022.12.05 02:51:35.775
+\# Memory report: Maximum memory size now 23,802 MB at UTC 2022.12.05 02:53:55.776
+\# Memory report: Maximum memory size now 23,242 MB at UTC 2022.12.05 03:00:15.776
+\# Memory report: Maximum memory size now 23,790 MB at UTC 2022.12.05 03:00:25.782
+\# Memory report: Maximum memory size now 24,974 MB at UTC 2022.12.05 03:00:35.775
+\# Available memory:         25,041 MB at UTC 2022.12.05 03:00:45.775
+\# Memory report: Maximum memory size now 27,154 MB at UTC 2022.12.05 03:01:15.775
+\# Available memory:         28,178 MB at UTC 2022.12.05 03:01:35.775
+\# Memory report: Maximum memory size now 28,541 MB at UTC 2022.12.05 03:01:35.776
+\# Memory report: Maximum memory size now 27,472 MB at UTC 2022.12.05 03:12:15.775
+\# Memory report: Maximum memory size now 28,343 MB at UTC 2022.12.05 03:12:25.776
+\# Memory report: Maximum memory size now 27,696 MB at UTC 2022.12.05 03:15:05.775
+\# Memory report: Maximum memory size now 30,045 MB at UTC 2022.12.05 04:00:25.775
+\w *WARNING* Process was terminated by USER with SIGTERM signal
+\o Local time (crash) Sunday 04 December 2022, 08:00:44 PM
+\e IO Error 0 (Success) on Display ":80.0" at UTC 2022.12.05 04:00:44.762
+\e Aborting due to fatal X IO error.
+\o libvirtuos_sh.so:voStackTrace+73()
+\# Memory report: Maximum memory size now 30,877 MB at UTC 2022.12.05 04:00:45.651
+\# Memory report: using         513 MB, process size 2,049 MB at UTC 2022.12.05 04:00:45.652
+\o virtuoso:gliXIOErrorHandler+549()
+\o libX11.so.6:_XIOError+78()
+\o libX11.so.6:libxalan-c.so.111/PLT+20328808()
+\o libX11.so.6:_XFlush+53()
+\o libX11.so.6:XFlush+26()
+\o virtuoso:hiiFlushCIWOutPortCB+324()
+\o virtuoso:hiiBPutsCB+344()
+\o libil_sh.so:ilPrintPort+272()
+\o libil_sh.so:iliInfo+151()
+\o libvirtuos_sh.so:voiInfo+182()
+\o libvirtuos_sh.so:mopWriteSignalInfo+338()
+\o libvirtuos_sh.so:mopProcessCdsLog+1525()
+\o libvirtuos_sh.so:voSigAbortInfo+72()
+\o libpthread.so.0:__restore_rt+0()
+\o libgcc_s.so.1:_Unwind_IteratePhdrCallback+1065()
+\o libc.so.6:dl_iterate_phdr+236()
+\o libgcc_s.so.1:_Unwind_Find_FDE+430()
+\o libgcc_s.so.1:uw_frame_state_for+99()
+\o libgcc_s.so.1:_Unwind_Backtrace+104()
+\o libc.so.6:backtrace+86()
+\o libvirtuos_sh.so:voIsSymbolInStack+104()
+\o libvirtuos_sh.so:voDoAbortFuncs+41()
+\o libvirtuos_sh.so:voSigAbortInfo+255()
+\o libpthread.so.0:__restore_rt+0()
+\o libc.so.6:__poll+45()
+\o libglib-2.0.so.0:+9049495()
+\o libglib-2.0.so.0:g_main_context_iteration+44()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+95()
+\o virtuoso:hiiFillCIWInPortCB+1627()
+\o libil_sh.so:iliBGetc+68()
+\o libil_sh.so:ilGetCharPort+111()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+265()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+23906()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2549()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliTopLevel+351()
+\o virtuoso:hiiSubEnterEventShell+681()
+\o virtuoso:_Z23hiiEnterLineCircleShellP9_hiWindowP13_hiEFunStruct19hiEnterFunctionType+902()
+\o virtuoso:hiEnterBox+65()
+\o virtuoso:hifEfunILInterface+2998()
+\o libil_sh.so:iliVcodeEval2C+32815()
+\o libil_sh.so:iliVcodeEval2+71()
+\o libil_sh.so:ilxSkillEval2+224()
+\o libil_sh.so:iliEvalString+723()
+\o virtuoso:_ZN22HiQExportOptionsWidget17selectBBoxClickedEv+180()
+\o libcdsQt5Core.so.5:_ZN11QMetaObject8activateEP7QObjectiiPPv+1503()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton7clickedEb+50()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12943464()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12948310()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+204()
+\o libcdsQt5Widgets.so.5:_ZN7QWidget5eventEP6QEvent+488()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+3948()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb+461()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11529538()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11540015()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+554()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+1779()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate24processWindowSystemEventEPN29QWindowSystemInterfacePrivate17WindowSystemEventE+261()
+\o libcdsQt5Gui.so.5:_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+187()
+\o libcdsQt5XcbQpa.so.5:+320927215()
+\o libglib-2.0.so.0:g_main_context_dispatch+345()
+\o libglib-2.0.so.0:+9049619()
+\o libglib-2.0.so.0:g_main_context_iteration+44()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+95()
+\o virtuoso:hiiFillCIWInPortCB+1627()
+\o libil_sh.so:iliBGetc+68()
+\o libil_sh.so:ilGetCharPort+111()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+265()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+23906()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2549()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliTopLevel+351()
+\o virtuoso:hiiSubEnterEventShell+681()
+\o virtuoso:_Z23hiiEnterLineCircleShellP9_hiWindowP13_hiEFunStruct19hiEnterFunctionType+902()
+\o virtuoso:hiEnterBox+65()
+\o virtuoso:hifEfunILInterface+2998()
+\o libil_sh.so:iliVcodeEval2C+32815()
+\o libil_sh.so:iliVcodeEval2+71()
+\o libil_sh.so:ilxSkillEval2+224()
+\o libil_sh.so:iliEvalString+723()
+\o virtuoso:_ZN22HiQExportOptionsWidget17selectBBoxClickedEv+180()
+\o libcdsQt5Core.so.5:_ZN11QMetaObject8activateEP7QObjectiiPPv+1503()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton7clickedEb+50()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12943464()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12948310()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+204()
+\o libcdsQt5Widgets.so.5:_ZN7QWidget5eventEP6QEvent+488()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+3948()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb+461()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11529538()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11540015()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+554()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+1779()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate24processWindowSystemEventEPN29QWindowSystemInterfacePrivate17WindowSystemEventE+261()
+\o libcdsQt5Gui.so.5:_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+187()
+\o libcdsQt5XcbQpa.so.5:+320927215()
+\o libglib-2.0.so.0:g_main_context_dispatch+345()
+\o libglib-2.0.so.0:+9049619()
+\o libglib-2.0.so.0:g_main_context_iteration+44()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+95()
+\o virtuoso:hiiFillCIWInPortCB+1627()
+\o libil_sh.so:iliBGetc+68()
+\o libil_sh.so:ilGetCharPort+111()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+265()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+23906()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2549()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliTopLevel+351()
+\o virtuoso:hiiSubEnterEventShell+681()
+\o virtuoso:_Z23hiiEnterLineCircleShellP9_hiWindowP13_hiEFunStruct19hiEnterFunctionType+902()
+\o virtuoso:hiEnterBox+65()
+\o virtuoso:hifEfunILInterface+2998()
+\o libil_sh.so:iliVcodeEval2C+32815()
+\o libil_sh.so:iliVcodeEval2+71()
+\o libil_sh.so:ilxSkillEval2+224()
+\o libil_sh.so:iliEvalString+723()
+\o virtuoso:_ZN22HiQExportOptionsWidget17selectBBoxClickedEv+180()
+\o libcdsQt5Core.so.5:_ZN11QMetaObject8activateEP7QObjectiiPPv+1503()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton7clickedEb+50()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12943464()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+12948310()
+\o libcdsQt5Widgets.so.5:_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+204()
+\o libcdsQt5Widgets.so.5:_ZN7QWidget5eventEP6QEvent+488()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+3948()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb+461()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11529538()
+\o libcdsQt5Widgets.so.5:libhedElaborator_sh.so/PLT+11540015()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+156()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+554()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+264()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+1779()
+\o libcdsQt5Gui.so.5:_ZN22QGuiApplicationPrivate24processWindowSystemEventEPN29QWindowSystemInterfacePrivate17WindowSystemEventE+261()
+\o libcdsQt5Gui.so.5:_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+187()
+\o libcdsQt5XcbQpa.so.5:+320927215()
+\o libglib-2.0.so.0:g_main_context_dispatch+345()
+\o libglib-2.0.so.0:+9049619()
+\o libglib-2.0.so.0:g_main_context_iteration+44()
+\o libcdsQt5Core.so.5:_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+95()
+\o virtuoso:hiiFillCIWInPortCB+1627()
+\o libil_sh.so:iliBGetc+68()
+\o libil_sh.so:ilGetCharPort+111()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+265()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+23906()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2549()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliTopLevel+351()
+\o virtuoso:hiMainLoop+1112()
+\o virtuoso:_ZN3rde15startHiMainLoopEv+6044()
+\o virtuoso:Tcl_MainEx+1459()
+\o virtuoso:_ZN17TclCommandAdaptor8mainLoopEiPPcPKcRKSt6vectorI9ctuStringSaIS5_EEPFvvE+520()
+\o virtuoso:_Z11finaleEntryiPPcPKcbP16finaleAppHarness+4684()
+\o virtuoso:_Z12rdeStartMainiPPc+43()
+\o virtuoso:main+933()
+\o libc.so.6:__libc_start_main+245()
+\o virtuoso:_start+41()
+\w *WARNING* Process was terminated with SIGABRT signal
+\o Local time (crash) Sunday 04 December 2022, 08:00:47 PM

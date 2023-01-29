@@ -1,0 +1,16 @@
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE inverter_1 /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/inverter_1
+DEFINE res_inverter_1 /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/res_inverter_1
+DEFINE res_inverter_short /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/res_inverter_short
+DEFINE project2_NAND /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/project2_NAND
+DEFINE project2_part2 /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/project2_part2
+DEFINE nand /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/nand
+DEFINE NAND /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/NAND
+DEFINE NAND_3_input /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/NAND_3_input
+DEFINE project_2 /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/project_2
+DEFINE proj2_nand /u/sai9/FreePDK45/ncsu_basekit/cdssetup/cadence525/proj2_nand

@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "res_inverter_1_1_man_tb"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/u/sai9/simulation/res_inverter_1_1_man_tb/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "inverter_1/group7_enhancement/schematic" "group7_enhancement" )
+( "res_inverter_1/res_inverter_1_1_man_tb/schematic" "res_inverter_1_1_man_tb_schematic" )
+ )
+( "res_inverter_1_1_man_tb_schematic" "ihnl/cds2/map" )
+( "group7_enhancement" "ihnl/cds0/map" )
+ )

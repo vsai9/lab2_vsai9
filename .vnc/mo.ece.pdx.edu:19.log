@@ -1,0 +1,262 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Fri Oct 21 19:46:40 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5919
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 19:46:43.529: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.1105717" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+
+(mate-panel:29641): GLib-GObject-CRITICAL **: 19:46:44.263: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+*** ERROR ***
+TI:19:46:44	TH:0x942670	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7f931fbe460b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7f931fbc828d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7f931fbc9b3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f931fbca521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7f931efd3555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:29641): GLib-GObject-CRITICAL **: 19:46:46.201: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:29641): GLib-GObject-CRITICAL **: 19:46:46.201: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:29739): Gdk-CRITICAL **: 19:46:47.834: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Oct 21 19:47:11 2022
+ Connections: accepted: 127.0.0.1::52364
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Gtk-Message: 19:52:31.810: GtkDialog mapped without a transient parent. This is discouraged.
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32001b1 (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32001b7 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32001bd (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32001c3 (Next Licen).
+
+Fri Oct 21 21:21:56 2022
+ Connections: closed: 127.0.0.1::52364 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 2638
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 1.776 kpixels
+ EncodeManager:             16 B (1:444.75 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 73.743 krects, 776.21 Mpixels
+ EncodeManager:            1.12523 MiB (1:2632.22 ratio)
+ EncodeManager:     Bitmap RLE: 5.712 krects, 2.27262 Mpixels
+ EncodeManager:                 180.123 KiB (1:49.657 ratio)
+ EncodeManager:     Indexed RLE: 29.824 krects, 30.1462 Mpixels
+ EncodeManager:                  2.58397 MiB (1:44.6367 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 142.816 krects, 1.03556 Gpixels
+ EncodeManager:                  244.673 MiB (1:16.152 ratio)
+ EncodeManager:   Total: 252.096 krects, 1.84419 Gpixels
+ EncodeManager:          248.558 MiB (1:28.3149 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sat Oct 22 11:31:40 2022
+ Connections: accepted: 127.0.0.1::60532
+
+Sat Oct 22 11:31:41 2022
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320120c (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320120c (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3201672 (Cellview F).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3201694 (Symbol Gen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3201672 (Cellview F).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32001bd (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3202442 (Error).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x32009af (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3202e3f (Schematic ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3200749 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203466 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203481 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320349c (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320352b (spectre0: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203583 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203c61 (Save a Cop).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203d0f (Save a Cop).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3203e4b (Save a Cop).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x3204151 (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320416b (Save Graph).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3200008 specified for 0x320416b (Save Graph).
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+Sat Oct 22 15:51:00 2022
+ Connections: closed: 127.0.0.1::60532 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 20628
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 859.676 krects, 4.4563 Gpixels
+ EncodeManager:            13.1176 MiB (1:1296.67 ratio)
+ EncodeManager:     Bitmap RLE: 720.609 krects, 558.667 Mpixels
+ EncodeManager:                 23.3072 MiB (1:91.7912 ratio)
+ EncodeManager:     Indexed RLE: 445.65 krects, 1.28778 Gpixels
+ EncodeManager:                  58.8889 MiB (1:83.5063 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 639.354 krects, 8.63947 Gpixels
+ EncodeManager:                  2.3372 GiB (1:13.7736 ratio)
+ EncodeManager:   Total: 2.66529 Mrects, 14.9422 Gpixels
+ EncodeManager:          2.43028 GiB (1:22.9167 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sat Oct 22 19:59:35 2022
+ Connections: accepted: 127.0.0.1::39722
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001a9 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001af (Question).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005d8 (Question).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300077e (Question).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000a10 (Question).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000bea (Quit).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e001a9 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00b68 (Panic Stat).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00b76 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00b83 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00b90 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00cd6 (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00d26 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00d26 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00d95 (Quit).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00d9b (Save State).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00da6 (Save All).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e001a8 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e005a6 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e005b3 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e005c0 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00634 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00634 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e0078c (Transient ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e007b4 (Editing Se).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00eaa (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00f88 (spectre1: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00fda (Warning).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00f88 (spectre1: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00f88 (spectre1: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01115 (spectre1: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01115 (spectre1: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e019fb (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01a18 (Save As).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e00eaa (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01a3e (Setup Anal).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01ae0 (Select Com).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01f66 (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01f66 (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02529 (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02553 (Save As).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02575 (Save Image).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02638 (Descend).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01f66 (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01f66 (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02737 (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e01f66 (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02737 (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02737 (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02f6a (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02f7c (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e02f8e (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03248 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03248 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e035b2 (Schematic ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03719 (Schematic ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03d98 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03de1 (spectre2: ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e044ac (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e044c4 (Save Image).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e044d4 (Save Image).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e044f6 (Save As).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03d98 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e04570 (Select Com).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e03d98 (Choosing A).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e04980 (Print).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e049a0 (Save Image).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2e00008 specified for 0x2e049b6 (Save Image).
+Init gajim plugin
+Init removable-devices plugin
+Init caja burn plugin
+Init pidgin plugin
+Init email client plugin
+
+Sat Oct 22 22:01:50 2022
+ Connections: closed: 127.0.0.1::39722 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 18354
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 414.63 krects, 3.09223 Gpixels
+ EncodeManager:            6.32675 MiB (1:1865.2 ratio)
+ EncodeManager:     Bitmap RLE: 142.61 krects, 137.362 Mpixels
+ EncodeManager:                 4.79262 MiB (1:109.674 ratio)
+ EncodeManager:     Indexed RLE: 363.959 krects, 662.897 Mpixels
+ EncodeManager:                  39.7269 MiB (1:63.7583 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 610.101 krects, 8.56343 Gpixels
+ EncodeManager:                  2.3817 GiB (1:13.3972 ratio)
+ EncodeManager:   Total: 1.5313 Mrects, 12.4559 Gpixels
+ EncodeManager:          2.43136 GiB (1:19.0918 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+abrt-applet: repeated problem in mate-panel-1.16.2-1.el7, not showing the notification
+Warning: VNC extension does not support -reset, terminating instead. Use -noreset to prevent termination.
+Gdk-Message: 22:00:01.616: The application 'mate-session' lost its connection to the display :19;
+most likely the X server was shut down or you killed/destroyed
+the application.
+

@@ -1,0 +1,590 @@
+[ 1664839607.066801]: IMSettings-Daemon[26495]: INFO: Starting imsettings-daemon...
+[ 1664839607.075896]: IMSettings-Daemon[26495]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1664839607.078565]: IMSettings-Daemon[26495]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1664839607.081863]: IMSettings-Daemon[26495]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1664839607.083993]: IMSettings-Daemon[26495]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1664839607.086035]: IMSettings-Daemon[26495]: INFO:   [MODULES=gsettings]
+
+
+[ 1664839607.127808]: IMSettings-Daemon[26495]: WARNING **: Child process exited with code 1
+[ 1664839607.198134]: IMSettings-Daemon[26495]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1664839607.464054]: IMSettings-Daemon[26495]: WARNING **: Child process exited with code 1
+[ 1664839607.467640]: IMSettings-Daemon[26495]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1664839607.469872]: IMSettings-Daemon[26495]: INFO:   Starting the main process for IBus [lang:C]
+[ 1664839607.473823]: IMSettings-Daemon[26495]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 26746, id: 12, time: 2022-10-03T23:26:47.473657Z
+[ 1664839607.477397]: IMSettings-GSettings backend[26495]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1664840535.518072]: IMSettings-Daemon[26495]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1664840535.522785]: IMSettings-Daemon[26495]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1664840535.524834]: IMSettings-Daemon[26495]: INFO:   Starting the main process for IBus [lang:C]
+[ 1664840535.527941]: IMSettings-Daemon[26495]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 3932, id: 18, time: 2022-10-03T23:42:15.527913Z
+
+[ 1664840535.545883]: GLib-GIO[26495]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1664840535.548479]: GLib-GIO[26495]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1664840535.550528]: IMSettings-Daemon[26495]: INFO: Unloading imesttings module: gsettings
+[ 1664840535.553119]: IMSettings-Daemon[26495]: INFO:   Stopping the main process for IBus [pid: 3932]
+[ 1664840535.554869]: IMSettings-Daemon[26495]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 3932, time: 2022-10-03T23:42:15.554862Z]
+[ 1664840535.557061]: IMSettings-Daemon[26495]: INFO: imsettings-daemon is shut down.
+[ 1664840659.961787]: IMSettings-Daemon[5331]: INFO: Starting imsettings-daemon...
+[ 1664840659.966458]: IMSettings-Daemon[5331]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1664840659.968508]: IMSettings-Daemon[5331]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1664840659.970717]: IMSettings-Daemon[5331]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1664840659.973861]: IMSettings-Daemon[5331]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1664840659.975587]: IMSettings-Daemon[5331]: INFO:   [MODULES=gsettings]
+
+
+[ 1664840659.992287]: IMSettings-Daemon[5331]: WARNING **: Child process exited with code 1
+[ 1664840660.054068]: IMSettings-Daemon[5331]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1664840660.282831]: IMSettings-Daemon[5331]: WARNING **: Child process exited with code 1
+[ 1664840660.286384]: IMSettings-Daemon[5331]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1664840660.288532]: IMSettings-Daemon[5331]: INFO:   Starting the main process for IBus [lang:C]
+[ 1664840660.292127]: IMSettings-Daemon[5331]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 5729, id: 12, time: 2022-10-03T23:44:20.292037Z
+[ 1664840660.294200]: IMSettings-GSettings backend[5331]: INFO: Setting up ibus:xim as gtk+ immodule
+
+[ 1665018001.799261]: GLib-GIO[5331]: WARNING **: Error releasing name com.redhat.imsettings: The connection is closed
+[ 1666403954.751573]: IMSettings-Daemon[19916]: INFO: Starting imsettings-daemon...
+[ 1666403954.755767]: IMSettings-Daemon[19916]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1666403954.758132]: IMSettings-Daemon[19916]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1666403954.760268]: IMSettings-Daemon[19916]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1666403954.762186]: IMSettings-Daemon[19916]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1666403954.764085]: IMSettings-Daemon[19916]: INFO:   [MODULES=gsettings]
+
+
+[ 1666403954.782543]: IMSettings-Daemon[19916]: WARNING **: Child process exited with code 1
+[ 1666403954.842771]: IMSettings-Daemon[19916]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1666403955.080894]: IMSettings-Daemon[19916]: WARNING **: Child process exited with code 1
+[ 1666403955.083495]: IMSettings-Daemon[19916]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1666403955.085312]: IMSettings-Daemon[19916]: INFO:   Starting the main process for IBus [lang:C]
+[ 1666403955.089076]: IMSettings-Daemon[19916]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 20163, id: 12, time: 2022-10-22T01:59:15.088979Z
+[ 1666403955.091286]: IMSettings-GSettings backend[19916]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1666406792.689394]: IMSettings-Daemon[19916]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1666406792.748802]: IMSettings-Daemon[19916]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1666406792.754269]: IMSettings-Daemon[19916]: INFO:   Starting the main process for IBus [lang:C]
+[ 1666406792.761665]: IMSettings-Daemon[19916]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 29360, id: 18, time: 2022-10-22T02:46:32.761633Z
+
+[ 1666406792.765443]: GLib-GIO[19916]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1666406792.767449]: GLib-GIO[19916]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1666406792.769506]: IMSettings-Daemon[19916]: INFO: Unloading imesttings module: gsettings
+[ 1666406792.773190]: IMSettings-Daemon[19916]: INFO:   Stopping the main process for IBus [pid: 29360]
+[ 1666406792.775689]: IMSettings-Daemon[19916]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 29360, time: 2022-10-22T02:46:32.775680Z]
+[ 1666406792.777979]: IMSettings-Daemon[19916]: INFO: imsettings-daemon is shut down.
+[ 1666406803.950721]: IMSettings-Daemon[29738]: INFO: Starting imsettings-daemon...
+[ 1666406803.953781]: IMSettings-Daemon[29738]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1666406803.955669]: IMSettings-Daemon[29738]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1666406803.957520]: IMSettings-Daemon[29738]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1666406803.959330]: IMSettings-Daemon[29738]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1666406803.961203]: IMSettings-Daemon[29738]: INFO:   [MODULES=gsettings]
+
+
+[ 1666406803.976913]: IMSettings-Daemon[29738]: WARNING **: Child process exited with code 1
+[ 1666406804.036065]: IMSettings-Daemon[29738]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1666406804.276585]: IMSettings-Daemon[29738]: WARNING **: Child process exited with code 1
+[ 1666406804.280083]: IMSettings-Daemon[29738]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1666406804.282261]: IMSettings-Daemon[29738]: INFO:   Starting the main process for IBus [lang:C]
+[ 1666406804.286684]: IMSettings-Daemon[29738]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 30097, id: 12, time: 2022-10-22T02:46:44.286538Z
+[ 1666406804.289427]: IMSettings-GSettings backend[29738]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1666911360.199561]: IMSettings-Daemon[4759]: INFO: Starting imsettings-daemon...
+[ 1666911360.203281]: IMSettings-Daemon[4759]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1666911360.205584]: IMSettings-Daemon[4759]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1666911360.207593]: IMSettings-Daemon[4759]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1666911360.209594]: IMSettings-Daemon[4759]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1666911360.211590]: IMSettings-Daemon[4759]: INFO:   [MODULES=gsettings]
+
+
+[ 1666911360.227545]: IMSettings-Daemon[4759]: WARNING **: Child process exited with code 1
+[ 1666911360.279613]: IMSettings-Daemon[4759]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1666911360.534196]: IMSettings-Daemon[4759]: WARNING **: Child process exited with code 1
+[ 1666911360.537441]: IMSettings-Daemon[4759]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1666911360.540048]: IMSettings-Daemon[4759]: INFO:   Starting the main process for IBus [lang:C]
+[ 1666911360.554861]: IMSettings-Daemon[4759]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 5288, id: 12, time: 2022-10-27T22:56:00.554703Z
+[ 1666911360.558114]: IMSettings-GSettings backend[4759]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1666998075.897592]: IMSettings-Daemon[4759]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1666998075.983371]: GLib-GIO[4759]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1666998076.012314]: GLib-GIO[4759]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1666998076.017175]: IMSettings-Daemon[4759]: INFO: Unloading imesttings module: gsettings
+[ 1666998076.035498]: IMSettings-Daemon[4759]: INFO:   Stopping the main process for IBus [pid: 5288]
+[ 1666998076.037999]: IMSettings-Daemon[4759]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 5288, time: 2022-10-28T23:01:16.037990Z]
+[ 1666998076.040556]: IMSettings-Daemon[4759]: INFO: imsettings-daemon is shut down.
+[ 1666998088.134481]: IMSettings-Daemon[24398]: INFO: Starting imsettings-daemon...
+[ 1666998088.139523]: IMSettings-Daemon[24398]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1666998088.142497]: IMSettings-Daemon[24398]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1666998088.144764]: IMSettings-Daemon[24398]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1666998088.146865]: IMSettings-Daemon[24398]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1666998088.148803]: IMSettings-Daemon[24398]: INFO:   [MODULES=gsettings]
+
+
+[ 1666998088.168919]: IMSettings-Daemon[24398]: WARNING **: Child process exited with code 1
+[ 1666998088.221875]: IMSettings-Daemon[24398]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1666998088.459171]: IMSettings-Daemon[24398]: WARNING **: Child process exited with code 1
+[ 1666998088.462063]: IMSettings-Daemon[24398]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1666998088.464322]: IMSettings-Daemon[24398]: INFO:   Starting the main process for IBus [lang:C]
+[ 1666998088.467680]: IMSettings-Daemon[24398]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 24733, id: 12, time: 2022-10-28T23:01:28.467582Z
+[ 1666998088.469881]: IMSettings-GSettings backend[24398]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1667771689.080104]: IMSettings-Daemon[13444]: INFO: Starting imsettings-daemon...
+[ 1667771689.084290]: IMSettings-Daemon[13444]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1667771689.086148]: IMSettings-Daemon[13444]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1667771689.088388]: IMSettings-Daemon[13444]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1667771689.090236]: IMSettings-Daemon[13444]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1667771689.092140]: IMSettings-Daemon[13444]: INFO:   [MODULES=gsettings]
+
+
+[ 1667771689.110925]: IMSettings-Daemon[13444]: WARNING **: Child process exited with code 1
+[ 1667771689.158717]: IMSettings-Daemon[13444]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1667771689.378227]: IMSettings-Daemon[13444]: WARNING **: Child process exited with code 1
+[ 1667771689.381249]: IMSettings-Daemon[13444]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1667771689.383928]: IMSettings-Daemon[13444]: INFO:   Starting the main process for IBus [lang:C]
+[ 1667771689.387528]: IMSettings-Daemon[13444]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 13688, id: 12, time: 2022-11-06T21:54:49.387424Z
+[ 1667771689.389983]: IMSettings-GSettings backend[13444]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1667774652.778410]: IMSettings-Daemon[13444]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1667774652.783243]: GLib-GIO[13444]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1667774652.790299]: GLib-GIO[13444]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1667774652.792710]: IMSettings-Daemon[13444]: INFO: Unloading imesttings module: gsettings
+[ 1667774652.809633]: IMSettings-Daemon[13444]: INFO:   Stopping the main process for IBus [pid: 13688]
+[ 1667774652.811592]: IMSettings-Daemon[13444]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 13688, time: 2022-11-06T22:44:12.811574Z]
+[ 1667774652.813983]: IMSettings-Daemon[13444]: INFO: imsettings-daemon is shut down.
+[ 1667774662.674718]: IMSettings-Daemon[6208]: INFO: Starting imsettings-daemon...
+[ 1667774662.677961]: IMSettings-Daemon[6208]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1667774662.679692]: IMSettings-Daemon[6208]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1667774662.681978]: IMSettings-Daemon[6208]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1667774662.683585]: IMSettings-Daemon[6208]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1667774662.685410]: IMSettings-Daemon[6208]: INFO:   [MODULES=gsettings]
+
+
+[ 1667774662.700059]: IMSettings-Daemon[6208]: WARNING **: Child process exited with code 1
+[ 1667774662.751765]: IMSettings-Daemon[6208]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1667774662.948975]: IMSettings-Daemon[6208]: WARNING **: Child process exited with code 1
+[ 1667774662.951810]: IMSettings-Daemon[6208]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1667774662.953983]: IMSettings-Daemon[6208]: INFO:   Starting the main process for IBus [lang:C]
+[ 1667774662.957420]: IMSettings-Daemon[6208]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 6450, id: 12, time: 2022-11-06T22:44:22.957320Z
+[ 1667774662.959698]: IMSettings-GSettings backend[6208]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1668656911.450081]: IMSettings-Daemon[18694]: INFO: Starting imsettings-daemon...
+[ 1668656911.454281]: IMSettings-Daemon[18694]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1668656911.458416]: IMSettings-Daemon[18694]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1668656911.460487]: IMSettings-Daemon[18694]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1668656911.462251]: IMSettings-Daemon[18694]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1668656911.463936]: IMSettings-Daemon[18694]: INFO:   [MODULES=gsettings]
+
+
+[ 1668656911.484791]: IMSettings-Daemon[18694]: WARNING **: Child process exited with code 1
+[ 1668656911.535412]: IMSettings-Daemon[18694]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1668656911.805669]: IMSettings-Daemon[18694]: WARNING **: Child process exited with code 1
+[ 1668656911.808384]: IMSettings-Daemon[18694]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1668656911.810290]: IMSettings-Daemon[18694]: INFO:   Starting the main process for IBus [lang:C]
+[ 1668656911.814127]: IMSettings-Daemon[18694]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 19019, id: 12, time: 2022-11-17T03:48:31.814036Z
+[ 1668656911.816257]: IMSettings-GSettings backend[18694]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1669019446.652318]: IMSettings-Daemon[2857]: INFO: Starting imsettings-daemon...
+[ 1669019446.656113]: IMSettings-Daemon[2857]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1669019446.657915]: IMSettings-Daemon[2857]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1669019446.659725]: IMSettings-Daemon[2857]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1669019446.662540]: IMSettings-Daemon[2857]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1669019446.665236]: IMSettings-Daemon[2857]: INFO:   [MODULES=gsettings]
+
+
+[ 1669019446.683015]: IMSettings-Daemon[2857]: WARNING **: Child process exited with code 1
+[ 1669019446.741503]: IMSettings-Daemon[2857]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1669019447.078828]: IMSettings-Daemon[2857]: WARNING **: Child process exited with code 1
+[ 1669019447.082500]: IMSettings-Daemon[2857]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1669019447.085226]: IMSettings-Daemon[2857]: INFO:   Starting the main process for IBus [lang:C]
+[ 1669019447.090588]: IMSettings-Daemon[2857]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 3101, id: 12, time: 2022-11-21T08:30:47.090267Z
+[ 1669019447.094176]: IMSettings-GSettings backend[2857]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1669021889.828404]: IMSettings-Daemon[2857]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1669021889.834363]: IMSettings-Daemon[2857]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1669021889.836860]: IMSettings-Daemon[2857]: INFO:   Starting the main process for IBus [lang:C]
+[ 1669021889.861875]: IMSettings-Daemon[2857]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 6465, id: 18, time: 2022-11-21T09:11:29.861843Z
+
+[ 1669021889.882555]: GLib-GIO[2857]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1669021889.884907]: GLib-GIO[2857]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1669021889.887112]: IMSettings-Daemon[2857]: INFO: Unloading imesttings module: gsettings
+[ 1669021889.896308]: IMSettings-Daemon[2857]: INFO:   Stopping the main process for IBus [pid: 6465]
+[ 1669021889.899230]: IMSettings-Daemon[2857]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 6465, time: 2022-11-21T09:11:29.899218Z]
+[ 1669021889.901677]: IMSettings-Daemon[2857]: INFO: imsettings-daemon is shut down.
+[ 1669021911.446966]: IMSettings-Daemon[7087]: INFO: Starting imsettings-daemon...
+[ 1669021911.450360]: IMSettings-Daemon[7087]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1669021911.452664]: IMSettings-Daemon[7087]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1669021911.454819]: IMSettings-Daemon[7087]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1669021911.456820]: IMSettings-Daemon[7087]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1669021911.458965]: IMSettings-Daemon[7087]: INFO:   [MODULES=gsettings]
+
+
+[ 1669021911.477043]: IMSettings-Daemon[7087]: WARNING **: Child process exited with code 1
+[ 1669021911.529614]: IMSettings-Daemon[7087]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1669021911.784709]: IMSettings-Daemon[7087]: WARNING **: Child process exited with code 1
+[ 1669021911.787554]: IMSettings-Daemon[7087]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1669021911.789275]: IMSettings-Daemon[7087]: INFO:   Starting the main process for IBus [lang:C]
+[ 1669021911.792654]: IMSettings-Daemon[7087]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 7630, id: 12, time: 2022-11-21T09:11:51.792558Z
+[ 1669021911.794699]: IMSettings-GSettings backend[7087]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1669482689.470987]: IMSettings-Daemon[14102]: INFO: Starting imsettings-daemon...
+[ 1669482689.475176]: IMSettings-Daemon[14102]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1669482689.477819]: IMSettings-Daemon[14102]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1669482689.479971]: IMSettings-Daemon[14102]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1669482689.481789]: IMSettings-Daemon[14102]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1669482689.483646]: IMSettings-Daemon[14102]: INFO:   [MODULES=gsettings]
+
+
+[ 1669482689.503696]: IMSettings-Daemon[14102]: WARNING **: Child process exited with code 1
+[ 1669482689.565807]: IMSettings-Daemon[14102]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1669482689.803907]: IMSettings-Daemon[14102]: WARNING **: Child process exited with code 1
+[ 1669482689.807091]: IMSettings-Daemon[14102]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1669482689.809423]: IMSettings-Daemon[14102]: INFO:   Starting the main process for IBus [lang:C]
+[ 1669482689.814288]: IMSettings-Daemon[14102]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 14323, id: 12, time: 2022-11-26T17:11:29.814181Z
+[ 1669482689.817127]: IMSettings-GSettings backend[14102]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1669878554.531280]: IMSettings-Daemon[20598]: INFO: Starting imsettings-daemon...
+[ 1669878554.539674]: IMSettings-Daemon[20598]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1669878554.541783]: IMSettings-Daemon[20598]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1669878554.543542]: IMSettings-Daemon[20598]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1669878554.545481]: IMSettings-Daemon[20598]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1669878554.547641]: IMSettings-Daemon[20598]: INFO:   [MODULES=gsettings]
+
+
+[ 1669878554.569231]: IMSettings-Daemon[20598]: WARNING **: Child process exited with code 1
+[ 1669878554.644525]: IMSettings-Daemon[20598]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1669878554.921278]: IMSettings-Daemon[20598]: WARNING **: Child process exited with code 1
+[ 1669878554.924827]: IMSettings-Daemon[20598]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1669878554.926956]: IMSettings-Daemon[20598]: INFO:   Starting the main process for IBus [lang:C]
+[ 1669878554.932695]: IMSettings-Daemon[20598]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 20853, id: 12, time: 2022-12-01T07:09:14.932474Z
+[ 1669878554.935889]: IMSettings-GSettings backend[20598]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1673417373.101079]: IMSettings-Daemon[20525]: INFO: Starting imsettings-daemon...
+[ 1673417373.105885]: IMSettings-Daemon[20525]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1673417373.107842]: IMSettings-Daemon[20525]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1673417373.111052]: IMSettings-Daemon[20525]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1673417373.113338]: IMSettings-Daemon[20525]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1673417373.115474]: IMSettings-Daemon[20525]: INFO:   [MODULES=gsettings]
+
+
+[ 1673417373.136561]: IMSettings-Daemon[20525]: WARNING **: Child process exited with code 1
+[ 1673417373.190636]: IMSettings-Daemon[20525]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1673417373.433690]: IMSettings-Daemon[20525]: WARNING **: Child process exited with code 1
+[ 1673417373.436658]: IMSettings-Daemon[20525]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1673417373.438964]: IMSettings-Daemon[20525]: INFO:   Starting the main process for IBus [lang:C]
+[ 1673417373.442682]: IMSettings-Daemon[20525]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 20954, id: 12, time: 2023-01-11T06:09:33.442594Z
+[ 1673417373.444947]: IMSettings-GSettings backend[20525]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1673418961.820542]: IMSettings-Daemon[20525]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1673418961.829712]: GLib-GIO[20525]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1673418961.831575]: GLib-GIO[20525]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1673418961.835336]: IMSettings-Daemon[20525]: INFO: Unloading imesttings module: gsettings
+[ 1673418961.839243]: IMSettings-Daemon[20525]: INFO:   Stopping the main process for IBus [pid: 20954]
+[ 1673418961.841530]: IMSettings-Daemon[20525]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 20954, time: 2023-01-11T06:36:01.841522Z]
+[ 1673418961.843679]: IMSettings-Daemon[20525]: INFO: imsettings-daemon is shut down.
+[ 1673418978.211425]: IMSettings-Daemon[888]: INFO: Starting imsettings-daemon...
+[ 1673418978.215180]: IMSettings-Daemon[888]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1673418978.217032]: IMSettings-Daemon[888]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1673418978.218694]: IMSettings-Daemon[888]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1673418978.220484]: IMSettings-Daemon[888]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1673418978.222308]: IMSettings-Daemon[888]: INFO:   [MODULES=gsettings]
+
+
+[ 1673418978.238044]: IMSettings-Daemon[888]: WARNING **: Child process exited with code 1
+[ 1673418978.285986]: IMSettings-Daemon[888]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1673418978.516821]: IMSettings-Daemon[888]: WARNING **: Child process exited with code 1
+[ 1673418978.520425]: IMSettings-Daemon[888]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1673418978.523402]: IMSettings-Daemon[888]: INFO:   Starting the main process for IBus [lang:C]
+[ 1673418978.527632]: IMSettings-Daemon[888]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 1197, id: 12, time: 2023-01-11T06:36:18.527536Z
+[ 1673418978.530544]: IMSettings-GSettings backend[888]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1673730055.465995]: IMSettings-Daemon[2828]: INFO: Starting imsettings-daemon...
+[ 1673730055.470271]: IMSettings-Daemon[2828]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1673730055.472618]: IMSettings-Daemon[2828]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1673730055.474749]: IMSettings-Daemon[2828]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1673730055.477336]: IMSettings-Daemon[2828]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1673730055.479616]: IMSettings-Daemon[2828]: INFO:   [MODULES=gsettings]
+
+
+[ 1673730055.501940]: IMSettings-Daemon[2828]: WARNING **: Child process exited with code 1
+[ 1673730055.549840]: IMSettings-Daemon[2828]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1673730055.762769]: IMSettings-Daemon[2828]: WARNING **: Child process exited with code 1
+[ 1673730055.766102]: IMSettings-Daemon[2828]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1673730055.768142]: IMSettings-Daemon[2828]: INFO:   Starting the main process for IBus [lang:C]
+[ 1673730055.771213]: IMSettings-Daemon[2828]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 3096, id: 12, time: 2023-01-14T21:00:55.771115Z
+[ 1673730055.773129]: IMSettings-GSettings backend[2828]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1673730069.408692]: IMSettings-Daemon[2828]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1673730069.477795]: IMSettings-Daemon[2828]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1673730069.481254]: IMSettings-Daemon[2828]: INFO:   Starting the main process for IBus [lang:C]
+[ 1673730069.486244]: IMSettings-Daemon[2828]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 4053, id: 18, time: 2023-01-14T21:01:09.486221Z
+
+[ 1673730069.488935]: GLib-GIO[2828]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1673730069.490727]: GLib-GIO[2828]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1673730069.492766]: IMSettings-Daemon[2828]: INFO: Unloading imesttings module: gsettings
+[ 1673730069.494608]: IMSettings-Daemon[2828]: INFO:   Stopping the main process for IBus [pid: 4053]
+[ 1673730069.496314]: IMSettings-Daemon[2828]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 4053, time: 2023-01-14T21:01:09.496309Z]
+[ 1673730069.498380]: IMSettings-Daemon[2828]: INFO: imsettings-daemon is shut down.
+[ 1673730078.895295]: IMSettings-Daemon[4288]: INFO: Starting imsettings-daemon...
+[ 1673730078.903186]: IMSettings-Daemon[4288]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1673730078.905412]: IMSettings-Daemon[4288]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1673730078.907463]: IMSettings-Daemon[4288]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1673730078.909578]: IMSettings-Daemon[4288]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1673730078.911490]: IMSettings-Daemon[4288]: INFO:   [MODULES=gsettings]
+
+
+[ 1673730078.931030]: IMSettings-Daemon[4288]: WARNING **: Child process exited with code 1
+[ 1673730078.988146]: IMSettings-Daemon[4288]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1673730079.233939]: IMSettings-Daemon[4288]: WARNING **: Child process exited with code 1
+[ 1673730079.236905]: IMSettings-Daemon[4288]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1673730079.238896]: IMSettings-Daemon[4288]: INFO:   Starting the main process for IBus [lang:C]
+[ 1673730079.241928]: IMSettings-Daemon[4288]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 4671, id: 12, time: 2023-01-14T21:01:19.241843Z
+[ 1673730079.244285]: IMSettings-GSettings backend[4288]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674005850.208290]: IMSettings-Daemon[4288]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1674005850.238504]: GLib-GIO[4288]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674005850.241833]: GLib-GIO[4288]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674005850.245549]: IMSettings-Daemon[4288]: INFO: Unloading imesttings module: gsettings
+[ 1674005850.273521]: IMSettings-Daemon[4288]: INFO:   Stopping the main process for IBus [pid: 4671]
+[ 1674005850.288100]: IMSettings-Daemon[4288]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 4671, time: 2023-01-18T01:37:30.288081Z]
+[ 1674005850.290837]: IMSettings-Daemon[4288]: INFO: imsettings-daemon is shut down.
+[ 1674005862.409929]: IMSettings-Daemon[16257]: INFO: Starting imsettings-daemon...
+[ 1674005862.413268]: IMSettings-Daemon[16257]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674005862.415486]: IMSettings-Daemon[16257]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674005862.417437]: IMSettings-Daemon[16257]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674005862.419545]: IMSettings-Daemon[16257]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674005862.421675]: IMSettings-Daemon[16257]: INFO:   [MODULES=gsettings]
+
+
+[ 1674005862.438479]: IMSettings-Daemon[16257]: WARNING **: Child process exited with code 1
+[ 1674005862.493838]: IMSettings-Daemon[16257]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674005862.762755]: IMSettings-Daemon[16257]: WARNING **: Child process exited with code 1
+[ 1674005862.766384]: IMSettings-Daemon[16257]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674005862.768967]: IMSettings-Daemon[16257]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674005862.772858]: IMSettings-Daemon[16257]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 16528, id: 12, time: 2023-01-18T01:37:42.772720Z
+[ 1674005862.775449]: IMSettings-GSettings backend[16257]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674546922.324993]: IMSettings-Daemon[23751]: INFO: Starting imsettings-daemon...
+[ 1674546922.329907]: IMSettings-Daemon[23751]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674546922.332216]: IMSettings-Daemon[23751]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674546922.334426]: IMSettings-Daemon[23751]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674546922.336535]: IMSettings-Daemon[23751]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674546922.338434]: IMSettings-Daemon[23751]: INFO:   [MODULES=gsettings]
+
+
+[ 1674546922.364170]: IMSettings-Daemon[23751]: WARNING **: Child process exited with code 1
+[ 1674546922.423747]: IMSettings-Daemon[23751]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674546922.705154]: IMSettings-Daemon[23751]: WARNING **: Child process exited with code 1
+[ 1674546922.709605]: IMSettings-Daemon[23751]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674546922.712710]: IMSettings-Daemon[23751]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674546922.717457]: IMSettings-Daemon[23751]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 24118, id: 12, time: 2023-01-24T07:55:22.717308Z
+[ 1674546922.722082]: IMSettings-GSettings backend[23751]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674603073.693586]: IMSettings-Daemon[23751]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1674603073.739537]: GLib-GIO[23751]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674603073.758219]: GLib-GIO[23751]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674603073.765429]: IMSettings-Daemon[23751]: INFO: Unloading imesttings module: gsettings
+[ 1674603073.771669]: IMSettings-Daemon[23751]: INFO:   Stopping the main process for IBus [pid: 24118]
+[ 1674603073.779130]: IMSettings-Daemon[23751]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 24118, time: 2023-01-24T23:31:13.779121Z]
+[ 1674603073.785069]: IMSettings-Daemon[23751]: INFO: imsettings-daemon is shut down.
+[ 1674603085.559452]: IMSettings-Daemon[9601]: INFO: Starting imsettings-daemon...
+[ 1674603085.565271]: IMSettings-Daemon[9601]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674603085.569281]: IMSettings-Daemon[9601]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674603085.574159]: IMSettings-Daemon[9601]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674603085.578253]: IMSettings-Daemon[9601]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674603085.583989]: IMSettings-Daemon[9601]: INFO:   [MODULES=gsettings]
+
+
+[ 1674603085.610675]: IMSettings-Daemon[9601]: WARNING **: Child process exited with code 1
+[ 1674603085.672976]: IMSettings-Daemon[9601]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674603085.930338]: IMSettings-Daemon[9601]: WARNING **: Child process exited with code 1
+[ 1674603085.934254]: IMSettings-Daemon[9601]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674603085.938131]: IMSettings-Daemon[9601]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674603085.944177]: IMSettings-Daemon[9601]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 9864, id: 12, time: 2023-01-24T23:31:25.944032Z
+[ 1674603085.948325]: IMSettings-GSettings backend[9601]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674603438.648619]: IMSettings-Daemon[9601]: INFO: Release the ownership of com.redhat.imsettings
+
+[ 1674603438.662763]: IBus[9864]: 
+
+[ 1674603438.680918]: IBus[9864]: (ibus-daemon:9864): GLib-WARNING **: 15:37:18.660: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+
+[ 1674603438.698882]: IBus[9864]: 
+
+[ 1674603438.702874]: IMSettings-Daemon[9601]: INFO: Stopped main process for IBus with the status 0 [pid: 9864]
+
+[ 1674603438.705109]: GLib-GIO[9601]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674603438.707417]: GLib-GIO[9601]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674603438.709366]: IMSettings-Daemon[9601]: INFO: Unloading imesttings module: gsettings
+[ 1674603438.713228]: IMSettings-Daemon[9601]: INFO: imsettings-daemon is shut down.
+[ 1674603449.881610]: IMSettings-Daemon[15763]: INFO: Starting imsettings-daemon...
+[ 1674603449.885848]: IMSettings-Daemon[15763]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674603449.889283]: IMSettings-Daemon[15763]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674603449.891751]: IMSettings-Daemon[15763]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674603449.894054]: IMSettings-Daemon[15763]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674603449.896017]: IMSettings-Daemon[15763]: INFO:   [MODULES=gsettings]
+
+
+[ 1674603449.916442]: IMSettings-Daemon[15763]: WARNING **: Child process exited with code 1
+[ 1674603449.975693]: IMSettings-Daemon[15763]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674603450.221276]: IMSettings-Daemon[15763]: WARNING **: Child process exited with code 1
+[ 1674603450.225868]: IMSettings-Daemon[15763]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674603450.228022]: IMSettings-Daemon[15763]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674603450.230904]: IMSettings-Daemon[15763]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 16005, id: 12, time: 2023-01-24T23:37:30.230816Z
+[ 1674603450.232797]: IMSettings-GSettings backend[15763]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674775398.604682]: IMSettings-Daemon[15763]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1674775398.640001]: GLib-GIO[15763]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674775398.705253]: GLib-GIO[15763]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674775398.708901]: IMSettings-Daemon[15763]: INFO: Unloading imesttings module: gsettings
+[ 1674775398.729598]: IMSettings-Daemon[15763]: INFO:   Stopping the main process for IBus [pid: 16005]
+
+[ 1674775398.740174]: IMSettings-Daemon[15763]: WARNING **:   Couldn't send a signal to the main process successfully.
+[ 1674775398.746681]: IMSettings-Daemon[15763]: INFO: imsettings-daemon is shut down.
+[ 1674775409.851539]: IMSettings-Daemon[20510]: INFO: Starting imsettings-daemon...
+[ 1674775409.854904]: IMSettings-Daemon[20510]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674775409.857004]: IMSettings-Daemon[20510]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674775409.859235]: IMSettings-Daemon[20510]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674775409.862052]: IMSettings-Daemon[20510]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674775409.865939]: IMSettings-Daemon[20510]: INFO:   [MODULES=gsettings]
+
+
+[ 1674775409.892336]: IMSettings-Daemon[20510]: WARNING **: Child process exited with code 1
+[ 1674775409.953322]: IMSettings-Daemon[20510]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674775410.263873]: IMSettings-Daemon[20510]: WARNING **: Child process exited with code 1
+[ 1674775410.267559]: IMSettings-Daemon[20510]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674775410.269960]: IMSettings-Daemon[20510]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674775410.283656]: IMSettings-Daemon[20510]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 20800, id: 12, time: 2023-01-26T23:23:30.283401Z
+[ 1674775410.287775]: IMSettings-GSettings backend[20510]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674775635.614022]: IMSettings-Daemon[20510]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1674775635.628214]: IMSettings-Daemon[20510]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1674775635.677697]: IMSettings-Daemon[20510]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674775635.701049]: IMSettings-Daemon[20510]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 27610, id: 18, time: 2023-01-26T23:27:15.701021Z
+
+[ 1674775635.708541]: GLib-GIO[20510]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674775635.711838]: GLib-GIO[20510]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674775635.714807]: IMSettings-Daemon[20510]: INFO: Unloading imesttings module: gsettings
+[ 1674775635.717071]: IMSettings-Daemon[20510]: INFO:   Stopping the main process for IBus [pid: 27610]
+[ 1674775635.719320]: IMSettings-Daemon[20510]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 27610, time: 2023-01-26T23:27:15.719312Z]
+[ 1674775635.721924]: IMSettings-Daemon[20510]: INFO: imsettings-daemon is shut down.
+[ 1674775651.626278]: IMSettings-Daemon[27949]: INFO: Starting imsettings-daemon...
+[ 1674775651.629427]: IMSettings-Daemon[27949]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674775651.631306]: IMSettings-Daemon[27949]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674775651.633761]: IMSettings-Daemon[27949]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674775651.635775]: IMSettings-Daemon[27949]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674775651.637584]: IMSettings-Daemon[27949]: INFO:   [MODULES=gsettings]
+
+
+[ 1674775651.658978]: IMSettings-Daemon[27949]: WARNING **: Child process exited with code 1
+[ 1674775651.717672]: IMSettings-Daemon[27949]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674775651.973983]: IMSettings-Daemon[27949]: WARNING **: Child process exited with code 1
+[ 1674775651.977047]: IMSettings-Daemon[27949]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674775651.979126]: IMSettings-Daemon[27949]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674775651.982802]: IMSettings-Daemon[27949]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 28257, id: 12, time: 2023-01-26T23:27:31.982662Z
+[ 1674775651.984910]: IMSettings-GSettings backend[27949]: INFO: Setting up ibus:xim as gtk+ immodule
+[ 1674775697.511332]: IMSettings-Daemon[27949]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1674775697.556053]: GLib-GIO[27949]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1674775697.565240]: GLib-GIO[27949]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1674775697.583348]: IMSettings-Daemon[27949]: INFO: Unloading imesttings module: gsettings
+[ 1674775697.595902]: IMSettings-Daemon[27949]: INFO:   Stopping the main process for IBus [pid: 28257]
+[ 1674775697.603685]: IMSettings-Daemon[27949]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 28257, time: 2023-01-26T23:28:17.603672Z]
+[ 1674775697.606315]: IMSettings-Daemon[27949]: INFO: imsettings-daemon is shut down.
+[ 1674775801.242585]: IMSettings-Daemon[1021]: INFO: Starting imsettings-daemon...
+[ 1674775801.245919]: IMSettings-Daemon[1021]: INFO:   [HOME=/u/sai9/.config/imsettings]
+[ 1674775801.248142]: IMSettings-Daemon[1021]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1674775801.250577]: IMSettings-Daemon[1021]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1674775801.252986]: IMSettings-Daemon[1021]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1674775801.255369]: IMSettings-Daemon[1021]: INFO:   [MODULES=gsettings]
+
+
+[ 1674775801.275001]: IMSettings-Daemon[1021]: WARNING **: Child process exited with code 1
+[ 1674775801.332105]: IMSettings-Daemon[1021]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+
+[ 1674775801.653613]: IMSettings-Daemon[1021]: WARNING **: Child process exited with code 1
+[ 1674775801.656589]: IMSettings-Daemon[1021]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1674775801.658755]: IMSettings-Daemon[1021]: INFO:   Starting the main process for IBus [lang:C]
+[ 1674775801.662073]: IMSettings-Daemon[1021]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 1573, id: 12, time: 2023-01-26T23:30:01.661982Z
+[ 1674775801.665676]: IMSettings-GSettings backend[1021]: INFO: Setting up ibus:xim as gtk+ immodule

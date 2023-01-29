@@ -1,0 +1,513 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Mon Nov 21 01:11:47 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5905
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 01:11:51.063: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.2448613" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+
+(mate-panel:6851): GLib-GObject-CRITICAL **: 01:11:51.760: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+*** ERROR ***
+TI:01:11:56	TH:0x158e660	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7f420282e60b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7f420281228d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7f4202813b3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f4202814521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7f4201c1d555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:6851): GLib-GObject-CRITICAL **: 01:11:56.417: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:6851): GLib-GObject-CRITICAL **: 01:11:56.417: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+Mon Nov 21 01:12:19 2022
+ Connections: accepted: 127.0.0.1::44134
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Nov 21 01:15:25 2022
+ Connections: closed: 127.0.0.1::44134 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 737
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 7.679 krects, 173.309 Mpixels
+ EncodeManager:            119.984 KiB (1:5643.07 ratio)
+ EncodeManager:     Bitmap RLE: 169 rects, 31.35 kpixels
+ EncodeManager:                 4.64355 KiB (1:26.7987 ratio)
+ EncodeManager:     Indexed RLE: 2.634 krects, 2.50478 Mpixels
+ EncodeManager:                  257.329 KiB (1:38.1425 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 19.565 krects, 376.23 Mpixels
+ EncodeManager:                  49.5769 MiB (1:28.9535 ratio)
+ EncodeManager:   Total: 30.047 krects, 552.076 Mpixels
+ EncodeManager:          49.9499 MiB (1:42.1691 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 01:16:40 2022
+ Connections: accepted: 127.0.0.1::44334
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Nov 21 01:59:05 2022
+ Connections: closed: 127.0.0.1::44334 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 2337
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 42.226 krects, 529.049 Mpixels
+ EncodeManager:            659.781 KiB (1:3132.99 ratio)
+ EncodeManager:     Bitmap RLE: 1.749 krects, 4.61281 Mpixels
+ EncodeManager:                 74.8281 KiB (1:241.076 ratio)
+ EncodeManager:     Indexed RLE: 19.961 krects, 32.5732 Mpixels
+ EncodeManager:                  3.651 MiB (1:34.0962 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 94.959 krects, 1.05633 Gpixels
+ EncodeManager:                  245.189 MiB (1:16.439 ratio)
+ EncodeManager:   Total: 158.895 krects, 1.62256 Gpixels
+ EncodeManager:          249.557 MiB (1:24.8096 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 02:24:39 2022
+ Connections: accepted: 127.0.0.1::45156
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4000007 specified for 0x4000005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4600007 specified for 0x4600005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x460004f specified for 0x4600052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x400004f specified for 0x4000052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4000007 specified for 0x4000005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4600007 specified for 0x4600005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x400004f specified for 0x4000052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x460004f specified for 0x4600052 (Overlay â€).
+
+Mon Nov 21 02:57:58 2022
+ Connections: closed: 127.0.0.1::45156 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 3934
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 99.212 krects, 1.1769 Gpixels
+ EncodeManager:            1.51385 MiB (1:2966.38 ratio)
+ EncodeManager:     Bitmap RLE: 6.625 krects, 20.6483 Mpixels
+ EncodeManager:                 351.215 KiB (1:229.874 ratio)
+ EncodeManager:     Indexed RLE: 51.128 krects, 115.713 Mpixels
+ EncodeManager:                  13.1359 MiB (1:33.6477 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 159.052 krects, 1.45244 Gpixels
+ EncodeManager:                  436.221 MiB (1:12.7056 ratio)
+ EncodeManager:   Total: 316.017 krects, 2.76571 Gpixels
+ EncodeManager:          451.214 MiB (1:23.3901 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 02:58:25 2022
+ Connections: accepted: 127.0.0.1::45448
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Nov 21 03:08:14 2022
+ Connections: closed: 127.0.0.1::45448 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 779
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 21.608 krects, 329.995 Mpixels
+ EncodeManager:            337.625 KiB (1:3818.73 ratio)
+ EncodeManager:     Bitmap RLE: 5.726 krects, 17.6576 Mpixels
+ EncodeManager:                 309.624 KiB (1:222.987 ratio)
+ EncodeManager:     Indexed RLE: 15.368 krects, 28.2929 Mpixels
+ EncodeManager:                  3.33067 MiB (1:32.4573 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 22.364 krects, 187.926 Mpixels
+ EncodeManager:                  68.1863 MiB (1:10.5173 ratio)
+ EncodeManager:   Total: 65.066 krects, 563.872 Mpixels
+ EncodeManager:          72.149 MiB (1:29.8236 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 03:08:44 2022
+ Connections: accepted: 127.0.0.1::45498
+ SConnection: Client needs protocol version 3.8
+
+Mon Nov 21 03:08:45 2022
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Nov 21 03:08:50 2022
+ Connections: closed: 127.0.0.1::45498 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 17
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 380 rects, 7.96425 Mpixels
+ EncodeManager:            5.9375 KiB (1:5240.39 ratio)
+ EncodeManager:     Indexed RLE: 339 rects, 135.903 kpixels
+ EncodeManager:                  24.2285 KiB (1:22.075 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 476 rects, 3.69633 Mpixels
+ EncodeManager:                  1.32342 MiB (1:10.6586 ratio)
+ EncodeManager:   Total: 1.195 krects, 11.7965 Mpixels
+ EncodeManager:          1.35287 MiB (1:33.2726 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 03:09:15 2022
+ Connections: accepted: 127.0.0.1::45504
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Nov 21 03:11:38 2022
+ Connections: closed: 127.0.0.1::45504 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 264
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 7.308 krects, 117.637 Mpixels
+ EncodeManager:            114.188 KiB (1:4025 ratio)
+ EncodeManager:     Bitmap RLE: 736 rects, 2.40313 Mpixels
+ EncodeManager:                 44.7734 KiB (1:209.853 ratio)
+ EncodeManager:     Indexed RLE: 6.483 krects, 4.93867 Mpixels
+ EncodeManager:                  742.385 KiB (1:26.0884 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 6.774 krects, 56.687 Mpixels
+ EncodeManager:                  20.8797 MiB (1:10.3604 ratio)
+ EncodeManager:   Total: 21.301 krects, 181.666 Mpixels
+ EncodeManager:          21.7599 MiB (1:31.8587 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Nov 21 03:12:19 2022
+ Connections: accepted: 127.0.0.1::45508
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (Overlay â€).
+
+(mate-volume-control-applet:6968): Gdk-CRITICAL **: 03:48:35.263: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:6968): Gdk-CRITICAL **: 03:48:35.263: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:6968): Gdk-CRITICAL **: 03:48:35.263: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:6968): Gdk-CRITICAL **: 03:48:35.263: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a0045a (Confirm â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4000007 specified for 0x4000005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x4600007 specified for 0x4600005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x400004f specified for 0x4000052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x460004f specified for 0x4600052 (Overlay â€).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (mo.ece.pdx).
+
+Mon Nov 21 04:26:55 2022
+ Connections: closed: 127.0.0.1::45508 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 5374
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 139.615 krects, 2.19778 Gpixels
+ EncodeManager:            2.13036 MiB (1:3936.17 ratio)
+ EncodeManager:     Bitmap RLE: 41.698 krects, 172.68 Mpixels
+ EncodeManager:                 3.89768 MiB (1:169.126 ratio)
+ EncodeManager:     Indexed RLE: 99.023 krects, 353.451 Mpixels
+ EncodeManager:                  38.5547 MiB (1:35.0007 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 121.56 krects, 1.06045 Gpixels
+ EncodeManager:                  349.397 MiB (1:11.5819 ratio)
+ EncodeManager:   Total: 401.896 krects, 3.78435 Gpixels
+ EncodeManager:          393.98 MiB (1:36.6536 ratio)
+ ComparingUpdateTracker: 3.14573 Mpixels in / 3.1785 Mpixels out
+ ComparingUpdateTracker: (1:0.989691 ratio)
+
+Tue Nov 22 02:22:15 2022
+ Connections: accepted: 127.0.0.1::39016
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Tue Nov 22 02:35:20 2022
+ Connections: closed: 127.0.0.1::39016 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 1791
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 57.992 krects, 655.972 Mpixels
+ EncodeManager:            906.125 KiB (1:2828.61 ratio)
+ EncodeManager:     Bitmap RLE: 14.723 krects, 53.1512 Mpixels
+ EncodeManager:                 1.80132 MiB (1:112.653 ratio)
+ EncodeManager:     Indexed RLE: 43.439 krects, 67.9759 Mpixels
+ EncodeManager:                  7.30392 MiB (1:35.5706 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 71.402 krects, 522.873 Mpixels
+ EncodeManager:                  184.312 MiB (1:10.8263 ratio)
+ EncodeManager:   Total: 187.556 krects, 1.29997 Gpixels
+ EncodeManager:          194.302 MiB (1:25.5332 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Nov 22 02:35:50 2022
+ Connections: accepted: 127.0.0.1::39260
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a00007 specified for 0x3a00005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3a0004f specified for 0x3a00052 (Overlay â€).
+
+Tue Nov 22 03:03:39 2022
+ Connections: accepted: 127.0.0.1::39376
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::39260 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 1583
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 45.261 krects, 604.858 Mpixels
+ EncodeManager:            707.203 KiB (1:3341.69 ratio)
+ EncodeManager:     Bitmap RLE: 20.202 krects, 70.5638 Mpixels
+ EncodeManager:                 1.49374 MiB (1:180.36 ratio)
+ EncodeManager:     Indexed RLE: 31.21 krects, 139.644 Mpixels
+ EncodeManager:                  15.8143 MiB (1:33.7072 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 30.756 krects, 258.414 Mpixels
+ EncodeManager:                  96.9945 MiB (1:10.1668 ratio)
+ EncodeManager:   Total: 127.429 krects, 1.07348 Gpixels
+ EncodeManager:          114.993 MiB (1:35.6235 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5200007 specified for 0x5200005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5200007 specified for 0x5200005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x520004f specified for 0x5200052 (Overlay â€).
+
+Tue Nov 22 03:11:29 2022
+ Connections: closed: 127.0.0.1::39376 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 558
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 13.578 krects, 174.849 Mpixels
+ EncodeManager:            212.156 KiB (1:3220.09 ratio)
+ EncodeManager:     Bitmap RLE: 7.796 krects, 26.3072 Mpixels
+ EncodeManager:                 540.928 KiB (1:190.143 ratio)
+ EncodeManager:     Indexed RLE: 10.723 krects, 127.522 Mpixels
+ EncodeManager:                  13.7638 MiB (1:35.3523 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 6.525 krects, 78.6939 Mpixels
+ EncodeManager:                  21.1699 MiB (1:14.1838 ratio)
+ EncodeManager:   Total: 38.622 krects, 407.372 Mpixels
+ EncodeManager:          35.669 MiB (1:43.5796 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Nov 22 03:13:09 2022
+ Connections: accepted: 127.0.0.1::39450
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5200007 specified for 0x5200005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x520004f specified for 0x5200052 (Overlay â€).
+
+Tue Nov 22 03:18:53 2022
+ Connections: closed: 127.0.0.1::39450 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 541
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 13.717 krects, 187.227 Mpixels
+ EncodeManager:            214.328 KiB (1:3413.07 ratio)
+ EncodeManager:     Bitmap RLE: 4.101 krects, 13.5445 Mpixels
+ EncodeManager:                 284.806 KiB (1:185.938 ratio)
+ EncodeManager:     Indexed RLE: 9.54 krects, 98.605 Mpixels
+ EncodeManager:                  10.5266 MiB (1:35.7434 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 8.105 krects, 73.6982 Mpixels
+ EncodeManager:                  22.0927 MiB (1:12.7295 ratio)
+ EncodeManager:   Total: 35.463 krects, 373.075 Mpixels
+ EncodeManager:          33.1068 MiB (1:42.9995 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Nov 22 03:19:29 2022
+ Connections: accepted: 127.0.0.1::39524
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5200007 specified for 0x5200005 (innovus).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x520004f specified for 0x5200052 (Overlay â€).
+
+Tue Nov 22 04:44:53 2022
+ Connections: closed: 127.0.0.1::39524 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 7089
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 209.662 krects, 2.7672 Gpixels
+ EncodeManager:            3.19919 MiB (1:3300.35 ratio)
+ EncodeManager:     Bitmap RLE: 64.902 krects, 253.792 Mpixels
+ EncodeManager:                 5.68052 MiB (1:170.562 ratio)
+ EncodeManager:     Indexed RLE: 186.069 krects, 835.305 Mpixels
+ EncodeManager:                  85.5427 MiB (1:37.2746 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 160.903 krects, 1.31847 Gpixels
+ EncodeManager:                  431.984 MiB (1:11.6472 ratio)
+ EncodeManager:   Total: 621.536 krects, 5.17477 Gpixels
+ EncodeManager:          526.406 MiB (1:37.5134 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Thu Nov 24 01:46:01 2022
+ Connections: accepted: 127.0.0.1::59982
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 02:13:43 2022
+ Connections: accepted: 127.0.0.1::60094
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::59982 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 471
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 11.816 krects, 173.668 Mpixels
+ EncodeManager:            184.625 KiB (1:3675.17 ratio)
+ EncodeManager:     Bitmap RLE: 6.495 krects, 30.1052 Mpixels
+ EncodeManager:                 560.045 KiB (1:210.117 ratio)
+ EncodeManager:     Indexed RLE: 8.42 krects, 38.6901 Mpixels
+ EncodeManager:                  3.46818 MiB (1:42.5836 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 9.14 krects, 98.0618 Mpixels
+ EncodeManager:                  22.2308 MiB (1:16.8316 ratio)
+ EncodeManager:   Total: 35.871 krects, 340.525 Mpixels
+ EncodeManager:          26.4262 MiB (1:49.1713 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 02:28:24 2022
+ Connections: accepted: 127.0.0.1::60192
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::60094 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 138
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4.118 krects, 48.6945 Mpixels
+ EncodeManager:            64.3438 KiB (1:2956.95 ratio)
+ EncodeManager:     Bitmap RLE: 4.276 krects, 18.4649 Mpixels
+ EncodeManager:                 374.518 KiB (1:192.724 ratio)
+ EncodeManager:     Indexed RLE: 1.263 krects, 5.57029 Mpixels
+ EncodeManager:                  567.511 KiB (1:38.3671 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.651 krects, 25.5744 Mpixels
+ EncodeManager:                  3.53466 MiB (1:27.6059 ratio)
+ EncodeManager:   Total: 11.308 krects, 98.304 Mpixels
+ EncodeManager:          4.51744 MiB (1:83.0402 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 02:56:16 2022
+ Connections: accepted: 127.0.0.1::60298
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::60192 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 2030
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 61.248 krects, 776.314 Mpixels
+ EncodeManager:            957 KiB (1:3169.48 ratio)
+ EncodeManager:     Bitmap RLE: 15.786 krects, 46.2701 Mpixels
+ EncodeManager:                 1.12324 MiB (1:157.301 ratio)
+ EncodeManager:     Indexed RLE: 38.968 krects, 193.142 Mpixels
+ EncodeManager:                  19.7317 MiB (1:37.3623 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 62.853 krects, 519.279 Mpixels
+ EncodeManager:                  190.596 MiB (1:10.3969 ratio)
+ EncodeManager:   Total: 178.855 krects, 1.535 Gpixels
+ EncodeManager:          212.386 MiB (1:27.5801 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 03:16:33 2022
+ Connections: accepted: 127.0.0.1::60358
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 03:16:34 2022
+ Connections: closed: 127.0.0.1::60298 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 246
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4.506 krects, 41.667 Mpixels
+ EncodeManager:            70.4062 KiB (1:2312.5 ratio)
+ EncodeManager:     Bitmap RLE: 92 rects, 51.52 kpixels
+ EncodeManager:                 2.7959 KiB (1:72.366 ratio)
+ EncodeManager:     Indexed RLE: 952 rects, 5.15348 Mpixels
+ EncodeManager:                  443.132 KiB (1:45.4536 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 10.499 krects, 128.502 Mpixels
+ EncodeManager:                  23.6047 MiB (1:20.7721 ratio)
+ EncodeManager:   Total: 16.049 krects, 175.374 Mpixels
+ EncodeManager:          24.1089 MiB (1:27.7567 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Nov 24 03:55:24 2022
+ Connections: closed: 127.0.0.1::60358 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 4615
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 311.52 kpixels
+ EncodeManager:             16 B (1:77880.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 143.763 krects, 1.58958 Gpixels
+ EncodeManager:            2.19365 MiB (1:2764.98 ratio)
+ EncodeManager:     Bitmap RLE: 15.576 krects, 54.285 Mpixels
+ EncodeManager:                 1.01975 MiB (1:203.246 ratio)
+ EncodeManager:     Indexed RLE: 152.632 krects, 282.686 Mpixels
+ EncodeManager:                  29.1521 MiB (1:37.0507 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 183.446 krects, 1.43859 Gpixels
+ EncodeManager:                  511.322 MiB (1:10.7367 ratio)
+ EncodeManager:   Total: 495.418 krects, 3.36545 Gpixels
+ EncodeManager:          543.687 MiB (1:23.6236 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+mate-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :5.
+Gdk-Message: 04:00:01.701: The application 'mate-session' lost its connection to the display :5;
+most likely the X server was shut down or you killed/destroyed
+the application.
+
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':5'.
+Warning: VNC extension does not support -reset, terminating instead. Use -noreset to prevent termination.

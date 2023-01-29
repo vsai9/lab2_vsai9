@@ -1,0 +1,160 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Tue Jan 17 17:37:38 2023
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5930
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 17:37:42.000: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.437943" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+*** ERROR ***
+TI:17:37:42	TH:0xb8d660	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7f30743b760b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7f307439b28d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7f307439cb3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f307439d521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7f30737a6555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:16185): GLib-GObject-CRITICAL **: 17:37:42.757: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:16185): GLib-GObject-CRITICAL **: 17:37:44.860: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:16185): GLib-GObject-CRITICAL **: 17:37:44.860: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:16269): Gdk-CRITICAL **: 17:37:44.980: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Tue Jan 17 17:40:46 2023
+ Connections: accepted: 127.0.0.1::34390
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+Tue Jan 17 17:40:53 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Tue Jan 17 17:40:54 2023
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Tue Jan 17 17:57:54 2023
+ Connections: closed: 127.0.0.1::34390 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 7
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4 rects, 68.121 kpixels
+ EncodeManager:            64 B (1:4258.31 ratio)
+ EncodeManager:     Indexed RLE: 1 rects, 315 pixels
+ EncodeManager:                  440 B (1:2.89091 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 47 rects, 2.15293 Mpixels
+ EncodeManager:                  245.484 KiB (1:34.2606 ratio)
+ EncodeManager:   Total: 52 rects, 2.22137 Mpixels
+ EncodeManager:          245.977 KiB (1:35.2791 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ ComparingUpdateTracker: 33.7469 Mpixels in / 35.9803 Mpixels out
+ ComparingUpdateTracker: (1:0.937929 ratio)
+
+Tue Jan 17 23:07:25 2023
+ Connections: accepted: 127.0.0.1::40458
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+/usr/bin/firefox: line 198: getenforce: command not found
+/usr/bin/firefox: line 198: [: !=: unary operator expected
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+
+Tue Jan 17 23:21:51 2023
+ Connections: accepted: 127.0.0.1::40986
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::40458 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 2079
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 41.892 krects, 487.372 Mpixels
+ EncodeManager:            654.562 KiB (1:2909.25 ratio)
+ EncodeManager:     Bitmap RLE: 2.021 krects, 2.60543 Mpixels
+ EncodeManager:                 63.8193 KiB (1:159.844 ratio)
+ EncodeManager:     Indexed RLE: 8.381 krects, 13.8877 Mpixels
+ EncodeManager:                  935.971 KiB (1:58.0648 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 60.678 krects, 746.306 Mpixels
+ EncodeManager:                  165.718 MiB (1:17.1836 ratio)
+ EncodeManager:   Total: 112.972 krects, 1.25017 Gpixels
+ EncodeManager:          167.333 MiB (1:28.5079 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Jan 18 00:58:51 2023
+ Connections: closed: 127.0.0.1::40986 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 2602
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 95.459 krects, 798.223 Mpixels
+ EncodeManager:            1.45659 MiB (1:2091.24 ratio)
+ EncodeManager:     Bitmap RLE: 3.89 krects, 1.47816 Mpixels
+ EncodeManager:                 115.852 KiB (1:50.2337 ratio)
+ EncodeManager:     Indexed RLE: 21.153 krects, 19.4521 Mpixels
+ EncodeManager:                  1.77977 MiB (1:41.8289 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 110.72 krects, 1.06838 Gpixels
+ EncodeManager:                  379.249 MiB (1:10.7496 ratio)
+ EncodeManager:   Total: 231.222 krects, 1.88753 Gpixels
+ EncodeManager:          382.599 MiB (1:18.8265 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Thu Jan 19 02:05:54 2023
+ Connections: accepted: 127.0.0.1::58826
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jan 19 02:05:55 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Jan 19 02:32:04 2023
+ Connections: closed: 127.0.0.1::58826 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 640
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 18.599 krects, 237.649 Mpixels
+ EncodeManager:            290.609 KiB (1:3195.13 ratio)
+ EncodeManager:     Bitmap RLE: 289 rects, 95.896 kpixels
+ EncodeManager:                 8.70801 KiB (1:43.4061 ratio)
+ EncodeManager:     Indexed RLE: 13.951 krects, 8.43727 Mpixels
+ EncodeManager:                  977.106 KiB (1:33.8976 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 25.524 krects, 196.363 Mpixels
+ EncodeManager:                  69.6305 MiB (1:10.7619 ratio)
+ EncodeManager:   Total: 58.363 krects, 442.545 Mpixels
+ EncodeManager:          70.8771 MiB (1:23.8278 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+Warning: VNC extension does not support -reset, terminating instead. Use -noreset to prevent termination.
+Gdk-Message: 03:00:02.273: mate-session: Fatal IO error 104 (Connection reset by peer) on X server :30.
+

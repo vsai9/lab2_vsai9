@@ -1,0 +1,117 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Fri Oct 21 18:59:10 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5925
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 18:59:14.275: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.1103839" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+*** ERROR ***
+TI:18:59:15	TH:0x1cad660	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7fba43a3760b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7fba43a1b28d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7fba43a1cb3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fba43a1d521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7fba42e26555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:19831): GLib-GObject-CRITICAL **: 18:59:15.075: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:19831): GLib-GObject-CRITICAL **: 18:59:16.966: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:19831): GLib-GObject-CRITICAL **: 18:59:16.966: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:19920): Gdk-CRITICAL **: 18:59:18.634: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Oct 21 19:08:26 2022
+ Connections: accepted: 127.0.0.1::45260
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 127.0.0.1::45260 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Oct 21 19:08:55 2022
+ Connections: accepted: 127.0.0.1::45266
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 127.0.0.1::45266 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Oct 21 19:25:04 2022
+ Connections: accepted: 127.0.0.1::45424
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Fri Oct 21 19:25:08 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Fri Oct 21 19:46:09 2022
+ Connections: closed: 127.0.0.1::45424 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 509
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 6.559 krects, 87.0653 Mpixels
+ EncodeManager:            102.484 KiB (1:3319.29 ratio)
+ EncodeManager:     Bitmap RLE: 14 rects, 24.976 kpixels
+ EncodeManager:                 444 B (1:225.387 ratio)
+ EncodeManager:     Indexed RLE: 559 rects, 1.12468 Mpixels
+ EncodeManager:                  47.4707 KiB (1:92.6853 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 16.526 krects, 282.981 Mpixels
+ EncodeManager:                  31.6027 MiB (1:34.164 ratio)
+ EncodeManager:   Total: 23.658 krects, 371.196 Mpixels
+ EncodeManager:          31.7496 MiB (1:44.6076 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+Gdk-Message: 19:46:32.682: mate-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+
+seapplet: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+Gdk-Message: 19:46:32.698: abrt: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+
+mate-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+Gdk-Message: 19:46:32.701: mate-terminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.0.
+
+mate-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':25'.
+[1666403959,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+mate-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+Gdk-Message: 19:46:32.691: polkit-mate-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+
+Gdk-Message: 19:46:32.703: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :25.
+
+Killing Xvnc process ID 19701
+Xvnc process ID 19701 already killed

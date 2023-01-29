@@ -1,0 +1,5 @@
+
+// Library name: inverter_1
+// Cell name: group7_enhancement
+// View name: schematic
+subckt group7_enhancement INPUT OUTPUT

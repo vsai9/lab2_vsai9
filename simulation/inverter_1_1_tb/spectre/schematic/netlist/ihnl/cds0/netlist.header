@@ -1,0 +1,5 @@
+
+// Library name: inverter_1
+// Cell name: inverter_1_1
+// View name: schematic
+subckt inverter_1_1 INPUT OUTPUT

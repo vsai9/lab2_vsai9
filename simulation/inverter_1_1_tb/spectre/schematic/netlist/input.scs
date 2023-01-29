@@ -1,0 +1,41 @@
+// Generated for: spectre
+// Generated on: Oct 22 20:15:40 2022
+// Design library name: inverter_1
+// Design cell name: inverter_1_1_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+include "/u/sai9/FreePDK45/osu_soc/lib/files/gpdk45nm.m"
+
+// Library name: inverter_1
+// Cell name: inverter_1_1
+// View name: schematic
+subckt inverter_1_1 INPUT OUTPUT
+    pull_up (vdd! vdd! OUTPUT 0) NMOS_VTL w=90n l=1u as=9.45e-15 \
+        ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+    inverter_pulldown_NFET (OUTPUT INPUT 0 0) NMOS_VTL w=90n l=50n \
+        as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+ends inverter_1_1
+// End of subcircuit definition.
+
+// Library name: inverter_1
+// Cell name: inverter_1_1_tb
+// View name: schematic
+I5 (net2 net3) inverter_1_1
+INPUT_SIGNAL (net2 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 \
+        period=10ns width=5ns
+LOAD_CAPACITOR (net3 0) capacitor c=15f
+V0 (vdd! 0) vsource dc=1.2V type=dc
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+dc dc dev=INPUT_SIGNAL param=dc start=0 stop=1.2 write="spectre.dc" \
+    oppoint=rawfile maxiters=150 maxsteps=10000 annotate=status 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

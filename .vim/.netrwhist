@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/syn/outputs'
+let g:netrw_dirhist_2='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib'
+let g:netrw_dirhist_3='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt'
+let g:netrw_dirhist_4='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm'
+let g:netrw_dirhist_5='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib'
+let g:netrw_dirhist_6='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt'
+let g:netrw_dirhist_7='/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_ccs'
+let g:netrw_dirhist_8='/pkgs/synopsys/2020/saed14nm/stdcell_rvt/db_nldm'
+let g:netrw_dirhist_9='/u/sai9/16112022'

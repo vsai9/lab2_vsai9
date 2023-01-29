@@ -1,0 +1,9 @@
+
+// Library name: inverter_1
+// Cell name: inverter_1_1_tb
+// View name: schematic
+I5 (net2 net3) inverter_1_1
+INPUT_SIGNAL (net2 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 \
+        period=10ns width=5ns
+LOAD_CAPACITOR (net3 0) capacitor c=15f
+V0 (vdd! 0) vsource dc=1.2V type=dc

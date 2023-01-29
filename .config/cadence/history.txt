@@ -1,0 +1,2 @@
+Fri Oct 28 16:20:36 2022~@$^*/pkgs/cadence/2019-03/IC618/doc/wincfg/cellviews.html#~@$^*Working with Cellviews <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>
+Fri Oct 28 16:20:36 2022~@$^*/pkgs/cadence/2019-03/IC618/doc/wincfg/cellviews.html#~@$^*deOpenForm <sup><font size="1" color="#A9A9A9">[ IC6.18 ]</font></sup>

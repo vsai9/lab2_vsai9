@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 28 21:40:45 2022
+// Design library name: res_inverter_1
+// Design cell name: res_inverter_1_1_man_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

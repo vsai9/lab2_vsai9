@@ -1,0 +1,6 @@
+# Cadence UI settings, Copyright (c) 1997-2012 Cadence Systems, Inc.
+# This file is generated automatically.  Please do not edit it manually.
+schShortCutMouse = {move_pane mouse {Move Pane Window} Button1-Motion {{Shift Click and Drag} Shift-Button1-Motion} {{Click and Drag (Disable Click and Drag Zoom In)} Button1-Motion}} {mouse_wheel mouse {Mouse Wheel} zoominout {{Move View Up/Down} scrollupdown} {{View Zoom In/Out} zoominout}} {open_fanin key {Open Fan-in Cone} {} o} {open_fanout key {Open Fan-out Cone} {} O} {open_fanin_reg key {Open Fan-in Cone to Register} {} r} {open_fanout_reg key {Open Fan-out Cone to Register} {} R} {open_fanin_mod key {Open Fan-in Cone to Module Boundary} {} m} {open_fanout_mod key {Open Fan-in Cone to Module Boundary} {} M} {close_fanin key {Close Fan-in Cone} {} x} {close_fanout key {Close Fan-out Cone} {} X} {lastview key {Last View} {} l} {open_nextlevel key {Open Next Level instance View} {} q} {close_nextlevel key {Close Next Level instance View} {} a} {zoom_in key {Zoom In} {} Z} {zoom_out key {Zoom Out} {} z} {zoom_full key {Full View} {} f}
+schSimplifiedView = 1
+schSimplifiedViewOption = 1
+schSimplifiedViewFullMax = 7500

@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+res_inverter_short/inverter_1_1_man_tb/schematic inverter_1_1_man_tb_schematic
+inverter_1/inverter_1_1_man_tb/schematic inverter_1_1_man_tb
+inverter_1/inverter_1_1_main/schematic inverter_1_1_main
+res_inverter_short/group7_enhancement/schematic group7_enhancement
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

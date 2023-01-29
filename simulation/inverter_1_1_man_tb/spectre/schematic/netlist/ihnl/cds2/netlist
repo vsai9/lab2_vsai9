@@ -1,0 +1,5 @@
+    inverter_pulldown_NFET (OUTPUT INPUT 0 0) NMOS_VTL w=90n l=50n \
+        as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+    R0 (vdd! OUTPUT) resistor r=135K
+ends group7_enhancement
+// End of subcircuit definition.

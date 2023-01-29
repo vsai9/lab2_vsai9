@@ -1,0 +1,5 @@
+HEADER
+"PSFversion" "1.00"
+"pull_upn inverter_pulldown_NFETn" "NCSU_Devices_FreePDK45_NMOS_VTL_spectre"
+"INPUTv" ":1v"
+"OUTPUTv" ":2v"

@@ -1,0 +1,31 @@
+#!/bin/bash
+lxde_session_path="/usr/bin/startlxde"
+mate_session_path="/usr/bin/mate-session"
+gnome_session_path="/usr/bin/gnome-session"
+
+session_manager=~/.xsession
+
+# Try for user specified session
+if ! [[ -x "$session_manager" ]];then
+    session_manager="$mate_session_path"
+fi
+
+# Try for lxde if mate doesn't exist
+if ! [[ -x "$session_manager" ]];then
+    session_manager="$lxde_session_path"
+fi
+
+# Try for gnome if lxde doesn't exist
+if ! [[ -x "$session_manager" ]];then
+    session_manager="$gnome_session_path"
+fi
+
+# Force addpkg stuff to be applied here
+if [[ -f /pkgs/pkgs/PKGSsh ]];then
+    source /pkgs/pkgs/PKGSsh
+fi
+
+"$session_manager"
+
+# Cleanup vncserver when we are done
+/usr/local/bin/vncserver -kill "$DISPLAY"

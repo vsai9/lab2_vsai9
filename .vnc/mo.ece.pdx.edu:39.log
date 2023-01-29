@@ -1,0 +1,91 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Thu Oct 27 15:55:56 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5939
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 15:55:59.467: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.1450734" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+*** ERROR ***
+TI:15:56:00	TH:0x1e50860	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7fa66d48f60b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7fa66d47328d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7fa66d474b3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fa66d475521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7fa66c87e555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:4669): GLib-GObject-CRITICAL **: 15:56:01.156: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:4669): GLib-GObject-CRITICAL **: 15:56:05.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:4669): GLib-GObject-CRITICAL **: 15:56:05.051: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:4755): Gdk-CRITICAL **: 15:56:05.659: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Oct 27 15:56:38 2022
+ Connections: accepted: 127.0.0.1::41422
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Oct 27 16:30:59 2022
+ Connections: closed: 127.0.0.1::41422 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 2593
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 62.02 krects, 495.498 Mpixels
+ EncodeManager:            969.062 KiB (1:1998.08 ratio)
+ EncodeManager:     Bitmap RLE: 1.267 krects, 266.741 kpixels
+ EncodeManager:                 38.2422 KiB (1:27.6345 ratio)
+ EncodeManager:     Indexed RLE: 10.249 krects, 11.5086 Mpixels
+ EncodeManager:                  973.435 KiB (1:46.3056 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 162.719 krects, 1.4997 Gpixels
+ EncodeManager:                  362.966 MiB (1:15.7667 ratio)
+ EncodeManager:   Total: 236.255 krects, 2.00697 Gpixels
+ EncodeManager:          364.9 MiB (1:20.9885 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+mate-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+Gdk-Message: 16:01:15.883: mate-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':39'.
+[1666911367,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+mate-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+seapplet: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+Gdk-Message: 16:01:16.003: polkit-mate-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+
+Gdk-Message: 16:01:16.004: abrt: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+
+Gdk-Message: 16:01:16.013: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+
+mate-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.
+Gdk-Message: 16:01:16.016: mate-terminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :39.0.
+
+Killing Xvnc process ID 4486
+Xvnc process ID 4486 already killed

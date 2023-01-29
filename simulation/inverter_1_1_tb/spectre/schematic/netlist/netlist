@@ -1,0 +1,20 @@
+
+// Library name: inverter_1
+// Cell name: inverter_1_1
+// View name: schematic
+subckt inverter_1_1 INPUT OUTPUT
+    pull_up (vdd! vdd! OUTPUT 0) NMOS_VTL w=90n l=1u as=9.45e-15 \
+        ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+    inverter_pulldown_NFET (OUTPUT INPUT 0 0) NMOS_VTL w=90n l=50n \
+        as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+ends inverter_1_1
+// End of subcircuit definition.
+
+// Library name: inverter_1
+// Cell name: inverter_1_1_tb
+// View name: schematic
+I5 (net2 net3) inverter_1_1
+INPUT_SIGNAL (net2 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 \
+        period=10ns width=5ns
+LOAD_CAPACITOR (net3 0) capacitor c=15f
+V0 (vdd! 0) vsource dc=1.2V type=dc

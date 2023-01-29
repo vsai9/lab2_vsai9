@@ -1,0 +1,167 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Thu Jan 26 15:29:57 2023
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5916
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 15:30:00.794: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.879678" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:30:01.620: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+*** ERROR ***
+TI:15:30:03	TH:0x1fa6670	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7fa39646260b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7fa39644628d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7fa396447b3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7fa396448521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7fa395851555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:30:03.191: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:30:03.191: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+Thu Jan 26 15:30:03 2023
+ Connections: accepted: 127.0.0.1::33176
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+(nm-applet:1035): Gdk-CRITICAL **: 15:30:05.679: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Jan 26 15:30:11 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 6.29146 Mpixels in / 6.31603 Mpixels out
+ ComparingUpdateTracker: (1:0.996109 ratio)
+
+Thu Jan 26 15:32:27 2023
+ ComparingUpdateTracker: 1.25324 Gpixels in / 1.29531 Gpixels out
+ ComparingUpdateTracker: (1:0.967519 ratio)
+
+Thu Jan 26 17:41:37 2023
+ Connections: closed: 127.0.0.1::33176 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 12854
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 73.778 krects, 512.705 Mpixels
+ EncodeManager:            1.12576 MiB (1:1738.07 ratio)
+ EncodeManager:     Bitmap RLE: 2.894 krects, 3.69255 Mpixels
+ EncodeManager:                 95.4951 KiB (1:151.4 ratio)
+ EncodeManager:     Indexed RLE: 31.121 krects, 39.4462 Mpixels
+ EncodeManager:                  5.82917 MiB (1:25.8753 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 72.383 krects, 659.818 Mpixels
+ EncodeManager:                  401.122 MiB (1:6.27698 ratio)
+ EncodeManager:   Total: 180.176 krects, 1.21566 Gpixels
+ EncodeManager:          408.17 MiB (1:11.3664 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ ComparingUpdateTracker: 94.0119 Mpixels in / 1.33806 Gpixels out
+ ComparingUpdateTracker: (1:0.07026 ratio)
+
+Thu Jan 26 18:15:58 2023
+ Connections: accepted: 127.0.0.1::35628
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+Thu Jan 26 18:16:04 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+(mate-volume-control-applet:972): Gdk-CRITICAL **: 22:24:11.681: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:972): Gdk-CRITICAL **: 22:24:11.682: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:972): Gdk-CRITICAL **: 22:24:11.682: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(mate-volume-control-applet:972): Gdk-CRITICAL **: 22:24:11.682: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+Fri Jan 27 00:00:43 2023
+ Connections: accepted: 127.0.0.1::45016
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+Fri Jan 27 00:00:55 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 127.0.0.1::35628 (Non-shared connection requested)
+ EncodeManager: Framebuffer updates: 34683
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 165.42 krects, 1.23736 Gpixels
+ EncodeManager:            2.52411 MiB (1:1870.78 ratio)
+ EncodeManager:     Bitmap RLE: 6.574 krects, 9.08508 Mpixels
+ EncodeManager:                 212.649 KiB (1:167.25 ratio)
+ EncodeManager:     Indexed RLE: 89.032 krects, 124.833 Mpixels
+ EncodeManager:                  16.5077 MiB (1:28.9088 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 168.706 krects, 1.50889 Gpixels
+ EncodeManager:                  899.037 MiB (1:6.40449 ratio)
+ EncodeManager:   Total: 429.732 krects, 2.88016 Gpixels
+ EncodeManager:          918.277 MiB (1:11.9701 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ ComparingUpdateTracker: 1.40643 Gpixels in / 443.537 Mpixels out
+ ComparingUpdateTracker: (1:3.17095 ratio)
+
+Fri Jan 27 00:25:52 2023
+ Connections: closed: 127.0.0.1::45016 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 312
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 271 rects, 3.56137 Mpixels
+ EncodeManager:            4.23438 KiB (1:3286.15 ratio)
+ EncodeManager:     Bitmap RLE: 8 rects, 8.96 kpixels
+ EncodeManager:                 272 B (1:132.118 ratio)
+ EncodeManager:     Indexed RLE: 75 rects, 89.81 kpixels
+ EncodeManager:                  20.5244 KiB (1:17.1357 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 578 rects, 5.4801 Mpixels
+ EncodeManager:                  3.24146 MiB (1:6.45128 ratio)
+ EncodeManager:   Total: 932 rects, 9.14025 Mpixels
+ EncodeManager:          3.2659 MiB (1:10.6794 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ ComparingUpdateTracker: 755.969 Mpixels in / 764.321 Mpixels out
+ ComparingUpdateTracker: (1:0.989073 ratio)
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:15:52.391: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:15:54.842: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:830): GLib-GObject-CRITICAL **: 15:15:54.842: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+Sat Jan 28 15:51:06 2023
+ Connections: accepted: 127.0.0.1::47808
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+Sat Jan 28 15:51:11 2023
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+(seapplet:929): Gdk-CRITICAL **: 15:54:09.036: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(seapplet:929): Gdk-CRITICAL **: 15:54:09.036: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(seapplet:929): Gdk-CRITICAL **: 15:54:09.037: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed
+
+(seapplet:929): Gdk-CRITICAL **: 15:54:09.037: IA__gdk_window_get_root_coords: assertion 'GDK_IS_WINDOW (window)' failed

@@ -1,0 +1,241 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Wed Nov 30 23:09:10 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5980
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 23:09:13.950: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.2951566" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 23:09:14.914: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+*** ERROR ***
+TI:23:09:20	TH:0x141c660	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7ff3084f660b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7ff3084da28d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7ff3084dbb3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7ff3084dc521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7ff3078e5555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 23:09:20.180: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 23:09:20.180: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:20608): Gdk-CRITICAL **: 23:09:27.023: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Wed Nov 30 23:09:54 2022
+ Connections: accepted: 127.0.0.1::60712
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Nov 30 23:10:17 2022
+ Connections: closed: 127.0.0.1::60712 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 70
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 461 rects, 4.86726 Mpixels
+ EncodeManager:            7.20312 KiB (1:2640.26 ratio)
+ EncodeManager:     Indexed RLE: 53 rects, 594 pixels
+ EncodeManager:                  2.74805 KiB (1:1.07036 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.824 krects, 44.6777 Mpixels
+ EncodeManager:                  4.4272 MiB (1:38.5012 ratio)
+ EncodeManager:   Total: 2.338 krects, 49.5455 Mpixels
+ EncodeManager:          4.43692 MiB (1:42.6034 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Nov 30 23:10:46 2022
+ Connections: accepted: 127.0.0.1::60734
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000150 (Reference ).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000156 (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000161 (Quit).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000150 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000150 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000150 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000165 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 01:16:15.691: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 01:16:26.645: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:20526): GLib-GObject-CRITICAL **: 01:16:26.646: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000e5f (Already Ex).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300112b (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3001134 (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300112b (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300112b (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300015f (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000665 (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300014a (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000150 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30019da (Quit).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000158 (Quit).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001b2 (Technology).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001b8 (Attach Lib).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001c2 (New File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30001c8 (Next Licen).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005da (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005da (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005da (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005da (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30005da (Add Instan).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000fac (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000fac (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000fac (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3000fac (Create Pin).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30013aa (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30013aa (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30013aa (Edit Objec).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30013aa (Edit Objec).
+
+Thu Dec  1 02:58:18 2022
+ Connections: closed: 127.0.0.1::60734 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 18260
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 391.293 krects, 2.81998 Gpixels
+ EncodeManager:            5.97066 MiB (1:1802.45 ratio)
+ EncodeManager:     Bitmap RLE: 179.371 krects, 69.5601 Mpixels
+ EncodeManager:                 5.54479 MiB (1:48.2261 ratio)
+ EncodeManager:     Indexed RLE: 137.028 krects, 327.698 Mpixels
+ EncodeManager:                  14.6166 MiB (1:85.6314 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 541.032 krects, 6.77517 Gpixels
+ EncodeManager:                  1.58687 GiB (1:15.909 ratio)
+ EncodeManager:   Total: 1.24872 Mrects, 9.99241 Gpixels
+ EncodeManager:          1.61239 GiB (1:23.0952 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Thu Dec  1 18:16:51 2022
+ Connections: accepted: 127.0.0.1::58614
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Dec  1 23:36:03 2022
+ Connections: closed: 127.0.0.1::58614 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 573
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.33 krects, 311.657 Mpixels
+ EncodeManager:            36.4062 KiB (1:33440.4 ratio)
+ EncodeManager:     Bitmap RLE: 54 rects, 22.504 kpixels
+ EncodeManager:                 1.4873 KiB (1:59.5299 ratio)
+ EncodeManager:     Indexed RLE: 52 rects, 88.017 kpixels
+ EncodeManager:                  2.92773 KiB (1:117.642 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 5.7 krects, 125.488 Mpixels
+ EncodeManager:                  17.9168 MiB (1:26.7216 ratio)
+ EncodeManager:   Total: 8.136 krects, 437.256 Mpixels
+ EncodeManager:          17.9566 MiB (1:92.8957 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Dec  2 17:47:01 2022
+ Connections: accepted: 127.0.0.1::39688
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec  2 17:47:02 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x300166b (Export Ima).
+
+Fri Dec  2 19:18:52 2022
+ Connections: closed: 127.0.0.1::39688 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 1628
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 31.826 krects, 297.239 Mpixels
+ EncodeManager:            497.281 KiB (1:2335.63 ratio)
+ EncodeManager:     Bitmap RLE: 3.062 krects, 841.478 kpixels
+ EncodeManager:                 92.0361 KiB (1:36.1044 ratio)
+ EncodeManager:     Indexed RLE: 7.825 krects, 5.2789 Mpixels
+ EncodeManager:                  720.904 KiB (1:28.7311 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 84.269 krects, 800.005 Mpixels
+ EncodeManager:                  184.712 MiB (1:16.527 ratio)
+ EncodeManager:   Total: 126.982 krects, 1.10336 Gpixels
+ EncodeManager:          185.992 MiB (1:22.6379 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Dec  2 19:24:27 2022
+ Connections: accepted: 127.0.0.1::47252
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30016f9 (Open File).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x3001706 (Question).
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x3000008 specified for 0x30013aa (Edit Objec).
+
+Fri Dec  2 19:46:56 2022
+ Connections: closed: 127.0.0.1::47252 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 175
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 3.687 krects, 26.1351 Mpixels
+ EncodeManager:            57.6094 KiB (1:1772.86 ratio)
+ EncodeManager:     Bitmap RLE: 1.587 krects, 784.103 kpixels
+ EncodeManager:                 50.5732 KiB (1:60.9314 ratio)
+ EncodeManager:     Indexed RLE: 1.386 krects, 1.16946 Mpixels
+ EncodeManager:                  99.3906 KiB (1:46.1255 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 7.554 krects, 82.7986 Mpixels
+ EncodeManager:                  17.4105 MiB (1:18.1464 ratio)
+ EncodeManager:   Total: 14.214 krects, 110.887 Mpixels
+ EncodeManager:          17.6132 MiB (1:24.0254 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+Gdk-Message: 20:00:44.569: mate-session: Fatal IO error 4 (Interrupted system call) on X server :80.
+
+mate-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :80.
+Window manager warning: Warning: VNC extension does not support -reset, terminating instead. Use -noreset to prevent termination.

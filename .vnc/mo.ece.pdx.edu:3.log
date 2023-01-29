@@ -1,0 +1,78 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov 16 2020 16:47:50
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Sat Nov 26 09:11:25 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5903
+ vncext:      created VNC server for screen 0
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+** Message: 09:11:29.008: couldn't access control socket: /run/user/19060/keyring/control: No such file or directory
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+vmware-user: could not open /proc/fs/vmblock/dev
+SSH_AUTH_SOCK=/run/user/19060/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+/usr/share/system-config-printer/applet.py:44: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.2680795" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+
+(mate-panel:14030): GLib-GObject-CRITICAL **: 09:11:29.959: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+*** ERROR ***
+TI:09:11:38	TH:0x12d4670	FI:gpm-manager.c	FN:gpm_manager_systemd_inhibit,1784
+ - Error in dbus - GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+Traceback:
+	mate-power-manager() [0x418b9f]
+	mate-power-manager() [0x411220]
+	/lib64/libgobject-2.0.so.0(g_type_create_instance+0x1fb) [0x7f7e6011560b]
+	/lib64/libgobject-2.0.so.0(+0x1528d) [0x7f7e600f928d]
+	/lib64/libgobject-2.0.so.0(g_object_new_with_properties+0x27d) [0x7f7e600fab3d]
+	/lib64/libgobject-2.0.so.0(g_object_new+0xc1) [0x7f7e600fb521]
+	mate-power-manager() [0x411a22]
+	mate-power-manager() [0x4080b8]
+	/lib64/libc.so.6(__libc_start_main+0xf5) [0x7f7e5f504555]
+	mate-power-manager() [0x4083db]
+
+(mate-panel:14030): GLib-GObject-CRITICAL **: 09:11:38.481: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:14030): GLib-GObject-CRITICAL **: 09:11:38.481: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nm-applet:14107): Gdk-CRITICAL **: 09:11:39.689: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Sat Nov 26 09:11:58 2022
+ Connections: accepted: 127.0.0.1::54218
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Sat Nov 26 09:11:59 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sat Nov 26 09:39:00 2022
+ Connections: closed: 127.0.0.1::54218 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 2043
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 58.734 krects, 718.506 Mpixels
+ EncodeManager:            917.719 KiB (1:3059.05 ratio)
+ EncodeManager:     Bitmap RLE: 3.458 krects, 7.43948 Mpixels
+ EncodeManager:                 188.171 KiB (1:154.652 ratio)
+ EncodeManager:     Indexed RLE: 46.588 krects, 54.1297 Mpixels
+ EncodeManager:                  6.46372 MiB (1:32.0283 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 82.718 krects, 723.583 Mpixels
+ EncodeManager:                  238.195 MiB (1:11.5922 ratio)
+ EncodeManager:   Total: 191.498 krects, 1.50366 Gpixels
+ EncodeManager:          245.739 MiB (1:23.3508 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+Gdk-Message: 10:00:02.290: mate-session: Fatal IO error 4 (Interrupted system call) on X server :3.
+
+Window manager warning: Warning: VNC extension does not support -reset, terminating instead. Use -noreset to prevent termination.

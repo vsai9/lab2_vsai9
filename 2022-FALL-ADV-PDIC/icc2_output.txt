@@ -1,0 +1,215 @@
+ 
+                              IC Compiler II (TM)
+
+                Version Q-2019.12-SP4 for linux64 - May 26, 2020
+ This SP release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Terminated.
+
+Stack trace for crashing thread
+-------------------------------
+SNPSee_72fe6ee5e6adf88ac107a01d196ffb8ed40842348ffb0f8b
+SNPSee_9ea8dbbd5e74784445edf9ed12a0bc4777b489dcaefdb88f6aa47f4097fccf5e
+SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9
+_L_unlock_13
+__read_nocancel
+SNPSee_82c794b12b96cc6d1a20ff0771a593c6
+SNPSee_5171045197d8591319498801ff2ac75b
+SNPSee_23a871427c2f73e4
+SNPSee_5d373cd896410e630e5be4cb01b4f045
+SNPSee_84819e9227b2e0aa9cae34dc8be3b8a5cd8f264d30f37d0c6a8e358e8cb885004984e24a8c4868b7af29ce1919d3f9852683413c29440db5024a1d284b194ff1
+SNPSee_81260d5446b04a0b521622ffec18badce443b967c009f82c
+SNPSee_e52978fb95288b35702010462a2fb7521b19e6c7de02e749f68bb351c5fdf77d77dcb6d7ca3d86dfab86a645dee82a58b2bd32436fe9252678dfa79a3e0c83bf
+SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c
+SNPSee_b3a63ca9beb66366a2beecdfa325f5f850e37c16b964335ba934f8a7afefeaf1
+SNPSee_6188b3f9a7e769c7eb2dc22ab181ff5c0260e7bf3c6e6c5b6dd310362dd3e58b19a33122e2a80c1014bca5a076370ba0686492d474ef148ca36ababef5945158a888f7e536545dec88d039942c447aad829ec3c9a13ccf1352c7f068f1dc0d713b949058f841385ce96831542394be36f2ec7e463409336ff9646fa385cc5a553df93f9156ead7f8
+SNPSee_5a24f30b88271223
+__libc_start_main
+SNPSee_d06eed713327be76
+
+A detailed stack trace has been captured in /u/sai9/2022-FALL-ADV-PDIC/Synopsys_stack_trace_6826.txt.
+
+The tool has just encountered a fatal error:
+
+If you encountered this fatal error when using the most recent
+Synopsys release, submit the above stack trace and a test case that
+reproduces the problem to the Synopsys Support Center by using
+Enter A Call at http://solvnet.synopsys.com/EnterACall.
+
+* For information about the latest software releases, go to the Synopsys
+  SolvNet Release Library at http://solvnet.synopsys.com/ReleaseLibrary.
+
+* For information about required Operating System patches, go to
+  http://www.synopsys.com/support
+
+
+Fatal: Internal system error, cannot recover.
+Error code=15
+
+Release = 'Q-2019.12-SP4'  Architecture = 'linux64'  Program = 'IC Compiler II'
+Exec = '/pkgs/synopsys/2020/icc2/icc2/Q-2019.12-SP4/linux64/nwtn/bin/dgcom_exec'
+
+'573128577 140272184075824 140272184072027 647812798 647813648 647814541 601896488 612881865 193443609 187733226 185965517 600965089 6225056 6237996 140271975798101 23281217'
+a menu item
+ gui_exist_pref_category # check for category existence, returns [0|1]
+ gui_exist_pref_key   # check for key existence, returns [0|1]
+ gui_explore_logic_hierarchy # Explore hierarchical placement using enclosing module boundaries
+ gui_export_utable    # Export the UserTable to a value file.
+ gui_get_bucket_option # Get option on a bucket for the specified Visual/Map Mode
+ gui_get_bucket_option_list # Get list of options supported for buckets of the specified Visual/Map Mode
+ gui_get_current_task # Return the name of the current task
+ gui_get_display_view # Gets the view used in the layout when cells specific views are active
+ gui_get_hierview_data # Get the various HierView values [default: return the last used HierView window name]
+ gui_get_highlight    # Get a collection of highlighted objects.
+ gui_get_highlight_options # Get highlighting options.
+ gui_get_layer_widths # get layer widths
+ gui_get_map          # Get attributes for Map Mode
+ gui_get_map_list     # Get list of Visual and Map Modes supported
+ gui_get_map_option   # Get option on a specified Visual/Map Mode
+ gui_get_map_option_list # Get list of options supported by specified Visual/Map Mode
+ gui_get_mapbucket    # Get attributes for Map Mode Bucket
+ gui_get_pref_keys    # get keys in specified categories
+ gui_get_pref_value   # Get value for specified key
+ gui_get_presets      # Get list of preset names for specified category
+ gui_get_setting      # 
+ gui_get_task_list    # Return the list of all tasks
+ gui_get_task_page    # Return the name of the task page for the given task item
+ gui_get_utable       # Get various state about User Tables [default: return list of all table names].
+ gui_get_vm           # Get attributes for Visual Mode
+ gui_get_vmbucket     # Get attributes for Visual Mode Bucket
+ gui_get_window_ids   # Get a list of window ids
+ gui_get_window_pref_categories # Get list of preference categories for object specified by window
+ gui_get_window_pref_keys # Get list of preference categories for object specified by window
+ gui_get_window_pref_value # Get preference value for object specified by window or window type
+ gui_get_window_presets # Get list of preset name for object specified by window_type
+ gui_get_window_types # Get a list of window types
+ gui_highlight_nets_of_selected # Highlight nets of selected objects
+ gui_import_utable    # Create a UserTable and import records from a value file or a report.
+ gui_list_attrgroups  # List gui attribute groups
+ gui_load_cell_density_mm # create cell density map mode
+ gui_load_clock_trunk_planning # Clock trunk planning manual command line
+ gui_load_path_analyzer_flylines # Create data for timing path analyzer flylines palette
+ gui_load_pin_density_mm # create pin density map mode
+ gui_load_power_density_mm # create power density map mode
+ gui_merge_utable     # Merge 2 tables into 1 table using the given join column(s).
+ gui_open_utable      # Open the given UserTable file.
+ gui_read_timing_paths # read timing paths
+ gui_remove_pref_key  # Remove a preference key
+ gui_remove_vm        # Remove Visual Mode
+ gui_remove_vmbucket  # Remove Visual Mode Bucket
+ gui_report_task      # Write a report on the contents of a task
+ gui_select_bounds_of_selected # Select bounds of selected objects
+ gui_select_bundles_of_selected # Select bundles of selected objects
+ gui_select_cells_of_selected # Select cells of selected objects
+ gui_select_connected_net_shapes # Select connected net shapes
+ gui_select_connected_rdl_net_shapes # Select connected RDL net shapes
+ gui_select_connections_of_selected # Select connections of selected objects
+ gui_select_constraint_groups_of_selected # Select constraint_groups of selected objects
+ gui_select_flops_of_selected # Select flops of selected objects
+ gui_select_input_connections_of_selected # Select input_connections of selected objects
+ gui_select_macros_of_selected # Select macros of selected objects or the current block
+ gui_select_matching_types_of_selected # Select matching_types of selected objects
+ gui_select_mib_cells_of_selected # Select MIB cells of selected objects
+ gui_select_mib_connections_of_selected # Select MIB connections of selected objects
+ gui_select_modules_of_selected # Select modules of selected objects
+ gui_select_net_buses_of_selected # Select net_buses of selected objects
+ gui_select_net_routing_of_selected # Select net_routing of selected objects
+ gui_select_net_shapes_of_selected # Select net_shapes of selected objects
+ gui_select_net_vias_of_selected # Select net_vias of selected objects
+ gui_select_nets_of_selected # Select nets of selected objects
+ gui_select_objects_of_selected_edit_group # Select objects of selected edit groups
+ gui_select_output_connections_of_selected # Select output_connections of selected objects
+ gui_select_port_buses_of_selected # Select port_buses of selected objects
+ gui_select_ports_of_selected_power_supply_nets # Select ports of the selected supply nets
+ gui_select_power_domains_of_selected # Select power_domains of selected objects
+ gui_select_primary_power_supply_nets_of_selected # Select the primary power supply nets of selected objects
+ gui_select_routing_corridors_of_selected # Select routing_corridors of selected objects
+ gui_select_rp_blockages_of_selected # Select rp_blockages of selected objects
+ gui_select_rp_groups_of_selected # Select rp_groups of selected objects
+ gui_select_safety_register_groups_of_selected # Select safety_register_groups of selected objects
+ gui_select_safety_register_rules_of_selected # Select safety_register_rules of selected objects
+ gui_select_shapes_of_selected # Select shapes of selected objects
+ gui_select_shield_routing_of_selected # Select shield_routing of selected objects
+ gui_select_shielded_nets_of_selected # Select shielded_nets of selected objects
+ gui_select_site_arrays_of_selected # Select site_arrays of selected objects
+ gui_select_site_rows_of_selected # Select site_rows of selected objects
+ gui_select_supernets_of_selected # Select supernets of selected objects
+ gui_select_tap_cells_of_selected # Select tap_cells of selected objects
+ gui_select_terminals_of_selected # Select terminals of selected objects
+ gui_select_topology_edges_of_selected # Select topology_edges of selected objects
+ gui_select_topology_nodes_of_selected # Select topology_nodes of selected objects
+ gui_select_topology_plans_of_selected # Select topology_plans of selected objects
+ gui_select_topology_repeaters_of_selected # Select topology_repeaters of selected objects
+ gui_select_tracks_of_selected # Select tracks of selected objects
+ gui_select_voltage_areas_of_selected # Select voltage_areas of selected objects
+ gui_select_voting_logics_of_selected # Select voting_logics of selected objects
+ gui_set_bucket_option # Set option on a bucket for the specified Visual/Map Mode
+ gui_set_current_task # Set the task with the given name as the current task
+ gui_set_display_view # Sets the view used in the layout when cells specific views are active
+ gui_set_hierview_data # Set the various HierView values.
+ gui_set_highlight_options # Set highlighting options.
+ gui_set_layer_widths # set layer widths
+ gui_set_map_option   # Set option on a specified Visual/Map Mode
+ gui_set_pref_value   # Set value for specified key
+ gui_set_preset       # Set the specified preset for the specified category
+ gui_set_select_menu_adds_to_selection # enable or disable add to selection mode
+ gui_set_setting      # 
+ gui_set_task_list    # Set the order of visible tasks
+ gui_set_utable_meta  # Create a MetaData Object for use in creating a new UserTable.
+ gui_set_vm           # Set Visual Mode attributes
+ gui_set_vmbucket     # Set attributes for Visual Mode Bucket
+ gui_set_window_pref_key # Create a preference key owned by a particular window or window type
+ gui_set_window_preset # Set the specified preset for object specified by window_type
+ gui_show_man_page    # 
+ gui_show_map         # Show/Hide a specified Visual/Map Mode
+ gui_start            # Start GUI
+ gui_stop             # Stop GUI
+ gui_trim_dangling_wires # Fix dangling wires
+ gui_update_attrgroup # Updates gui attribute group
+ gui_update_pref_file # Update preference file
+ gui_update_vm        # Update Visual Mode
+ gui_update_vm_annotations # Update visual mode annotations
+ gui_write_hierarchy_colors # Export tcl cmd into a file to restore current hierarhcy color
+ gui_write_timing_paths # write timing paths
+ gui_write_utable     # Write the UserTable to a file in native UserTable format.
+ remove_from_io_guide # Remove pad cells from an io_guide in the current design
+ remove_from_pin_guide # Remove pins, nets, or ports from a pin guide
+ remove_io_guides     # Removes io_guides from the current design
+ remove_pin_guides    # Removes a list of pin guides
+ remove_routing_guides # Removes a collection of routing guides
+ report_io_guides     # Report io_guides in the current design
+ report_pin_guides    # Report pin guides in the current design
+ report_routing_guides # Get Access Preference Routing Guides
+ run_monitor_gui      # Start the distributed monitor GUI
+ start_busplan_gui    # Open and initialize the register planning GUI
+ start_gui            # Synonym for 'gui_start'
+ stop_gui             # Synonym for 'gui_stop'
+icc2_shell> gui_start
+icc2_shell> set top_design fs
+fs
+icc2_shell> pwd
+/u/sai9/2022-FALL-ADV-PDIC
+icc2_shell> cd final_prj_team-adv-pdic/apr/work/
+icc2_shell> source ../scipts/icc2_shell f
+Error: extra positional option 'f' (CMD-012)
+icc2_shell> set flow f
+f
+icc2_shell> source ../scipts/icc2_shell
+Error: could not open script file "../scipts/icc2_shell" (CMD-015)
+icc2_shell> pwd
+/u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/apr/work
+icc2_shell> exit
+Maximum memory usage for this session: 225.16 MB
+Maximum memory usage for this session including child processes: 225.16 MB
+CPU usage for this session:     33 seconds (  0.01 hours)
+Elapsed time for this session:    613 seconds (  0.17 hours)
+Thank you for using IC Compiler II.
+

@@ -1,0 +1,200 @@
+#+1667807844
+cd final_prj_team-adv-pdic/apr/work/
+#+1667807971
+gvim final_prj_team-adv-pdic/apr/scripts/icc2.tcl
+#+1667808043
+gvim final_prj_team-adv-pdic/apr/scripts/../../$top_design.design_config.tcl
+#+1667808089
+gvim final_prj_team-adv-pdic/apr/scripts/../../fifo1.design_config.tcl
+#+1667808349
+gvim u/sai9tree | grep fifo1_sram.dct.vg
+#+1667980928
+tree
+#+1667980943
+help *tr*
+#+1667981071
+ls final_prj_team-adv-pdic/
+#+1667981185
+xpdf /pkgs/synopsys/2020/bitcoin/Bitcoin_CaseStudy_UserGuide_GoldenUPF_v1.1.pdf
+#+1667981191
+evince /pkgs/synopsys/2020/bitcoin/Bitcoin_CaseStudy_UserGuide_GoldenUPF_v1.1.pdf
+#+1667985169
+cd /u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/apr/work
+#+1667985187
+ls /u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/apr/work
+#+1667985216
+ls ../../syn/outputs/fifo1_sram.dct.vg
+#+1667985223
+ls ../../syn/outputs/fifo1_sram.*
+#+1667985301
+ls ../../syn/outputs/*fifo1_sram.*
+#+1667985306
+ls ../../syn/outputs/*fifo1_sram*
+#+1667985309
+ls ../../syn/outputs/
+#+1667986866
+gvim /u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/apr/scripts/icc2.tcl
+#+1667987036
+ls ../../syn/outputs/ORCA_TOP.dc.vg
+#+1667987124
+ls /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_hvt/ndm
+#+1667987258
+gvim ../scripts/setup2.tcl
+#+1667989069
+ls ../reports/
+#+1667989081
+gvim ../reports/ORCA_TOP.floorplan.qor.rpt
+#+1667989137
+gvim ../reports/ORCA_TOP.floorplan.timing.max.rpt.gz
+#+1667989414
+icc2_shell
+#+1668657414
+ls /u/adrajesh/Desktop/2022-FALL-ADV-PDIC/
+#+1668657417
+ls /u/adrajesh/Desktop/
+#+1668657430
+ls /u/
+#+1668657578
+gvim README
+#+1668657788
+man chmod
+#+1668657853
+ls /u/adrajesh/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic
+#+1668657869
+ls /u/adrajesh/
+#+1668657902
+ll/u/adrajesh/
+#+1668657906
+ll /u/adrajesh/
+#+1668657978
+ll /u/
+#+1668657989
+ls /u/vnarne
+#+1668657999
+ll /u/vnarne/
+#+1668658274
+ll /u/adrajesh
+#+1668658289
+cd ~adrajesh/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic
+#+1668658378
+ll
+#+1668658415
+mkdir 160112022
+#+1668658438
+rmdir 160112022
+#+1668658445
+mkdir 16112022
+#+1668658454
+chmod 777 16112022/
+#+1668658471
+ls ../
+#+1668658479
+ll ../
+#+1668658487
+ll ../ | grep sai9
+#+1668658525
+readlink -f 16112022/
+#+1668658554
+chmod 777 ~
+#+1668658706
+gvim temp
+#+1668660516
+ls /home/adrajesh/
+#+1668660589
+ls /home/adrajesh/common/
+#+1668660599
+ls /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic
+#+1668670676
+ls 2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README
+#+1668670681
+gvim 2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README
+#+1668670713
+gvim 2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README.git
+#+1668671614
+cd 2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README.git
+#+1668671618
+cd 2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/
+#+1668671626
+less README.git
+#+1668671634
+less README.git | head -2
+#+1668671643
+git clone https://github.com/bcruik2/PSU_RTL2GDS.git
+#+1668671693
+gvim /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README.git
+#+1668672057
+ls /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/PSU_RTL2GDS/syn/work/
+#+1668672578
+gvim /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README
+#+1668672596
+gvim ~/.profile
+#+1668673255
+gvim ../scripts/floorplan-macros2.tcl
+#+1668673279
+gvim /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/../scripts/floorplan-macros2.tcl
+#+1668673369
+gvim /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/apr/scripts/floorplan-macros2.tcl
+#+1669023430
+dc_shell
+#+1669026604
+innovus
+#+1669026675
+addpkg
+#+1669031289
+innovus &
+#+1669116090
+/pkgs/cadence/2020-11/INNOVUS201/bin/innovus
+#+1669117123
+gvim genus.log.22-11-22_03-11
+#+1669286084
+/pkgs/cadence/2022-09/GENUS211/bin/genus
+#+1669286956
+cd ../../syn/work/
+#+1669286973
+genus
+#+1669482738
+cd ~
+#+1669482778
+cd 2022-FALL-ADV-PDIC/
+#+1669482779
+ls
+#+1669482784
+cd final_prj_team-adv-pdic/
+#+1669482788
+cd syn/
+#+1669482794
+cd work/
+#+1669483020
+pwd
+#+1669483031
+gvim /u/sai9/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/README
+#+1669483285
+gvim /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/syn/scripts/genus-add_ios.tcl
+#+1669483523
+cp /home/adrajesh/common/Desktop/2022-FALL-ADV-PDIC/final_prj_team-adv-pdic/syn/scripts/genus-add_ios.tcl ../scripts/genus-add_ios_unedited.tcl
+#+1669483531
+gvim ../scripts/genus-add_ios_unedited.tcl
+#+1669483996
+cp ../scripts/genus-add_ios.tcl ../scripts/genus-add_ios_edited.tcl
+#+1669484018
+cp ../scripts/genus-add_ios_unedited.tcl ../scripts/genus-add_ios.tcl
+#+1669484039
+xterm &
+#+1669947452
+man make
+#+1674025740
+gvim ~/.cshrc
+#+1674122795
+cd
+#+1674122799
+ls -lrt
+#+1674122804
+gvim tcl_script.tcl
+#+1674122836
+gvim 1.txt
+#+1674122994
+tclsh tcl_script.tcl
+#+1674550477
+cp /u/sai9/ECE581-2023/lab2-vsai9/fifo1_sram.design_config.tcl /u/sai9/ECE581-2023/lab2-vsai9/fifo1_srama.design_config.tcl
+#+1674550481
+exit
